@@ -7,45 +7,60 @@
 
 This repository provides access to an **open data** packaged version of the calls-for-service (CFS) datasets published by the Portland Police Bureau (PPB) for the [National Institute of Justice Real-Time Crime Forecasting Challenge](http://nij.gov/funding/Pages/fy16-crime-forecasting-challenge.aspx). The Challenge, offering up to $1.2 million dollars in price, seeks to harness the advances in ​data science to address the challenges of crime and justice. It is open to  open to individuals and businesses and runs from Septenber 2016 to February 2017.
 
-<div style="float:right;margin-left:10px" >
-<div><a href="http://www.mtna.us" target="_blank"><img src="media/mtna_logo_200x82.png"</img></a></div>
-</div>
-Our company, [Metadata Technology North America](http://wwwm.mtna.us), provides products, services, expertise, and cloud infrastructure aiming at imrproving access and usefulness of data by leveraging modern technologies and metadata. We believe that better data can create a better world. By repackaging the NIJ Challenge data into open formats, we hope to support the initiative by making the datasets easier to access, use, and analysis.
-
 <a name="toc"></a>
 ## TOC
+* [Why are we doing this?](#rationale)
 * [What's available here?](#content)
 * [Calls-for-service dataset](#cfs)
 * [Open Data Packaging Process](#odps)
 * [Contribute & Support](#contribute)
-* [License & Citation](#license)
+* [Citation](#cite)
+* [LicenseCitation](#license)
+
+<a name="rationale"></a>
+## Why are we doing this?
+<div style="float:right;margin-left:10px" >
+<div><a href="http://www.mtna.us" target="_blank"><img src="media/mtna_logo_200x82.png"</img></a></div>
+</div>
+Our company, [Metadata Technology North America](http://wwwm.mtna.us), provides products, services, expertise, and cloud infrastructure aiming at improving access and usefulness of data by leveraging modern technologies and best practices. This is motivated by our vision that better data can create a better world. 
+
+By repackaging the NIJ Challenge data into open formats, we hope to support the initiative by making the datasets easier to access, use, and analysis.
 
 <a name="contents"></a>
 ## What's made available here?
 The following components are available:
 
-* A cumulative version of the **calls-for-service (CFS) data** is available in **comma separated (CSV)** and **fixed ASCII** and fixed text tormats in the ```/data``` directory. This has been extracted from the dBase files and combines the yearly data files publsihed by NIJ into a single dataset.
-* **Programs** to read the text data in [**SAS**](http://www.sas.com), [**SPSS**](http://www.spss.com), [**Stata**](http://www.stata.com), [**R**](http://www.r-project.com) are in the [```/syntax```](syntax) directory. These include when relevant syntax for value labels.
-* **SQL scripts** to create and load the data in [**MS-SQL**](https://www.microsoft.com/en-us/cloud-platform/sql-server), [**MySql**](http://www.mysql.com), [**MonetDB**](http://www.monetdb.org), [**Oracle**](http://www.oracle.com), [**Vertica**](www.vertica.com) databases are in the ```/sql``` directory. This includes code to generate the database schema. These scripts rely on the SQL friendly version of the data (.sql.csv files).
-* **Metadata** in [**DDI**](http://www.ddialliance.org) and [**Triple-S**](http://www.triple-s.org) are available in the [```/metadata```](metadata) directory . **Descriptive statistics** (summary and frequencies) are also available in CSV files.
-
-This project will be updated as new data is made available by NIJ. See expected publication schedule on the Challenge web site.
+* A cumulative version of the **calls-for-service (CFS) data** is available in **comma separated (CSV)** and **fixed ASCII** text tormats in the [```/data```](data)directory. This has been extracted from the dBase files in the ESRI package and combines the yearly data files publsihed by NIJ into a single dataset.
+* **Programs** to read the text data into [**R**](http://www.r-project.com),  [**SAS**](http://www.sas.com), [**SPSS**](http://www.spss.com), [**Stata**](http://www.stata.com), [**Stat/Transfer**)[www.stattransfer.com/] are in the [```/syntax```](syntax) directory. These include when relevant syntax for value labels.
+* **SQL scripts** to create and load the data in [**MS-SQL**](https://www.microsoft.com/en-us/cloud-platform/sql-server), [**MySql**](http://www.mysql.com), [**MonetDB**](http://www.monetdb.org), [**Oracle**](http://www.oracle.com), [**Vertica**](www.vertica.com) databases are in the [```/sql```](sql)directory. This includes code to generate the database schema and dimension/lookup tables. These scripts rely on the SQL friendly version of the text data (.sql.csv file).
+* *Documentation*, mostly automatically generated from the data and metadata, is in the [```/docs``` directory. This includes PDF data dictionnaries.
+* **Metadata** in [**DDI**](http://www.ddialliance.org) and [**Triple-S**](http://www.triple-s.org) is available in the [```/metadata```](metadata) directory . This also includes **descriptive statistics** (summary and frequencies) which are available in CSV files and embedded in DDI.
 
 *Interested or need other outputs? [Contact us](http://www.mtna.us/contactus) with your needs and suggestion.* 
 
-
 <a name="cfs"></a>
 ## The Calls-for-service dataset (CFS)
-The Calls-for-service dataset is made available . The 
+The Calls-for-service dataset and map is made available on the [National Institute of Justice Real-Time Crime Forecasting Challenge](http://nij.gov/funding/Pages/fy16-crime-forecasting-challenge.aspx). CFS records are provided by the Portland Police Bureau (PPB) for the period of March 1, 2012 through February 28, 2017.
 
+### Coverage Period
+The initial data release covered the March 2012 to July 2016 period. This project will be updated as new data is made available by NIJ for subsequent months. 
+
+*The current version is up to August 2016*.
+
+### Data Dictionnary
+The CFS record definition is based on the structure and content as described on the NIJ Challange web site. 
 
 
 <a name="odps"></a>
 ## Open Data Packaging Approach
-The following steps were used to repackage the data. 
+We have packaged this data product in accordance to our open data vision and principles, which aims at maximizing usability by (1) liberating data from proprietary formats, (2) capturing knowledge around the data in compliance with international best practices and metadata standards, and (3) facilitating immediate reuse in popular data management environments. See our [Open Data Packaging Services](http://www.mtna.us/odps) description for further information.
 
-* Python utlity were developped to read the data in the DBase file and convert to 
-* An excel spreadsheet capture the variable, classification and record layout metadata 
+The following steps are taken to repackage and publish the data:
+
+* We developped and maintain a Python utlity script ([```utils/utils.py```](utils/utils.py)) to extract the data from the DBase file embedded in the ZIP ESRI package and produce/update the text ASCII version of the dataset
+* Metadata describing the variables, their code lists / classifications, and file record structures is maitained in a workbook. This is based on a standard template that we can read to produce various outputs for further processing purposes. This includes scripts to read data in SlegdeHemmer or publish in Google BigQuery (see below). This tool is at this time only avalable internally (panned for open source release in 2017). 
+* We use our [SledgeHammer](http://www.mtna.us/sledgehammer) package to process the data and metadata, and generate all the programs, scripts, metadata, and compute descriptive statistics
+* Using the Google BigQuery console and command line tools, we publish and make the datasets available for analysis in BigQuery. This is publlicy accessiible and can be use from your own Google projects.
 
 
 <a name="contribute"></a>
@@ -60,12 +75,14 @@ Putting this data product together and maintaining the repository takes time and
 *And if you win the Challenge, accept our congratulations and consider above suggestions*
 
 <a name="license"></a>
-## Licenses & Citation
-The data and metadata published here are licensed under the [Creative Commons CC0 1.0 Universal License](http://creativecommons.org/publicdomain/zero/1.0/). Users are advised to futher check licensing and us conditions for of underlying materials with the respective custodians and publsihed. 
+## License
+The data and metadata published here are licensed under the [Creative Commons CC0 1.0 Universal License](http://creativecommons.org/publicdomain/zero/1.0/). Users are advised to futher check licensing and usage conditions for of underlying materials with the respective custodians/ publsihers. 
 
-Programs, syntax, scripts and other files are made available under the [BSD2 license](https://opensource.org/licenses/BSD-2-Clause).
+Programs, syntax, scripts and other software components are made available under the [BSD2 license](https://opensource.org/licenses/BSD-2-Clause).
 
-The following suggested citation is optional but appreciated:
+## Citation
+When publihsing, presenting, or in general sharing your work, results, and outputs, the following suggested citation is optional but appreciated:
 
-*This work has been made possible with contributions and technical support from Metadata Technology North America (http://www.mtna.us)*
+*This work has been made possible with contributions and technical support from Metadata Technology North America Inc. (http://www.mtna.us)*
+
 
