@@ -14,17 +14,17 @@ This repository provides access to an **open data** packaged version of the call
 * [Calls-for-service dataset](#cfs)
 * [Open Data Packaging Process](#odps)
 * [Contribute & Support](#contribute)
+* [License](#license)
 * [Citation](#cite)
-* [LicenseCitation](#license)
 
 <a name="rationale"></a>
 ## Why are we doing this?
 <div style="float:right;margin-left:10px" >
 <div><a href="http://www.mtna.us" target="_blank"><img src="media/mtna_logo_200x82.png"</img></a></div>
 </div>
-Our company, [Metadata Technology North America](http://wwwm.mtna.us), provides products, services, expertise, and cloud infrastructure aiming at improving access and usefulness of data by leveraging modern technologies and best practices. This is motivated by our vision that better data can create a better world. 
+Our company, [Metadata Technology North America](http://wwwm.mtna.us), provides products, services, expertise, and cloud infrastructure aiming at improving accessibility and usefulness of data by leveraging modern technologies and best practices. This is motivated by our vision that better data can create a better world. 
 
-By repackaging the NIJ Challenge data into open formats, we hope to support the initiative by making the datasets easier to access, use, and analysis.
+By repackaging the NIJ Challenge data into open formats, we hope to support the initiative by making the datasets easier to access, use, and analyze.
 
 <a name="contents"></a>
 ## What's made available here?
@@ -40,7 +40,7 @@ The following components are available:
 
 <a name="cfs"></a>
 ## The Calls-for-service dataset (CFS)
-The Calls-for-service dataset and map is made available on the [National Institute of Justice Real-Time Crime Forecasting Challenge](http://nij.gov/funding/Pages/fy16-crime-forecasting-challenge.aspx). CFS records are provided by the Portland Police Bureau (PPB) for the period of March 1, 2012 through February 28, 2017.
+The Calls-for-service dataset and map is made available on the [National Institute of Justice Real-Time Crime Forecasting Challenge](http://nij.gov/funding/Pages/fy16-crime-forecasting-challenge.aspx). CFS records are being provided by the Portland Police Bureau (PPB) for the period of March 1, 2012 through February 28, 2017.
 
 ### Coverage Period
 The initial data release covered the March 2012 to July 2016 period. This project will be updated as new data is made available by NIJ for subsequent months. 
@@ -48,8 +48,7 @@ The initial data release covered the March 2012 to July 2016 period. This projec
 *The current version is up to August 2016*.
 
 ### Data Dictionnary
-The CFS record definition is based on the structure and content as described on the NIJ Challange web site. 
-
+The CFS record definition is based on the structure and content as described on the NIJ Challange web site. Note that we have preserved the original field names and casing to ensure compatibility with existing code. 
 
 <a name="odps"></a>
 ## Open Data Packaging Approach
@@ -80,8 +79,9 @@ The data and metadata published here are licensed under the [Creative Commons CC
 
 Programs, syntax, scripts and other software components are made available under the [BSD2 license](https://opensource.org/licenses/BSD-2-Clause).
 
+<a name="cite"></a>
 ## Citation
-When publihsing, presenting, or in general sharing your work, results, and outputs, the following suggested citation is optional but appreciated:
+When publishing, presenting, or in general sharing your work, results, and outputs, the following suggested citation is optional but appreciated:
 
 *This work has been made possible with contributions and technical support from Metadata Technology North America Inc. (http://www.mtna.us)*
 
