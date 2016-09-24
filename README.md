@@ -12,7 +12,8 @@ This repository provides access to an **open data** packaged version of the call
 * [Why are we doing this?](#rationale)
 * [What's available here?](#content)
 * [Calls-for-service dataset](#cfs)
-* [Open Data Packaging Process](#odps)
+* [Other Resources](#resources)
+* [Our Open Data Packaging Process](#odps)
 * [Contribute & Support](#contribute)
 * [License](#license)
 * [Citation](#cite)
@@ -24,7 +25,14 @@ This repository provides access to an **open data** packaged version of the call
 </div>
 Our company, [Metadata Technology North America](http://wwwm.mtna.us), provides products, services, expertise, and cloud infrastructure aiming at improving accessibility and usefulness of data by leveraging modern technologies and best practices. This is motivated by our vision that better data can create a better world. 
 
-By repackaging the NIJ Challenge data into open formats, we hope to support the initiative by making the datasets easier to access, use, and analyze.
+By repackaging the NIJ Challenge dataset into open formats, we hope to:
+
+1. Support the initiative by making the daet easier to access, use, and analyze
+2. Encourage data producers and publishers to modernize their data publication practices
+3. Foster the adoption of open data formats, metadata standards, and best practices
+3. Generate interest in our vision and other collaborative projects
+
+See [Contribute & Support](#contribute) below for ways to support this work or [contact us[(http://www.mtna.us/contactus?subject=nij-challenge) for information.
 
 <a name="contents"></a>
 ## What's made available here?
@@ -38,6 +46,9 @@ The following components are available:
 
 *Interested or need other outputs? [Contact us](http://www.mtna.us/contactus) with your needs and suggestion.* 
 
+The information is made available under Creative Commons Universal or BSD licences. See [license](#license) and [citation](#cite) below for details.
+
+
 <a name="cfs"></a>
 ## The Calls-for-service dataset (CFS)
 The Calls-for-service dataset and map is made available on the [National Institute of Justice Real-Time Crime Forecasting Challenge](http://nij.gov/funding/Pages/fy16-crime-forecasting-challenge.aspx). CFS records are being provided by the Portland Police Bureau (PPB) for the period of March 1, 2012 through February 28, 2017.
@@ -50,8 +61,17 @@ The initial data release covered the March 2012 to July 2016 period. This projec
 ### Data Dictionnary
 The CFS record definition is based on the structure and content as described on the NIJ Challange web site. Note that we have preserved the original field names and casing to ensure compatibility with existing code. 
 
+<a name="resources"></a>
+## Other Resources
+The following resources can be consulted to complement the information available here:
+
+### Portland
+* [City of Portalnd Police Bureau](https://www.portlandoregon.gov/police/29793?)<br/>This web sites provides additional statitics and information on 
+* [CrimeReport Portland](https://preview.crimereports.com/agency/portland-police-bureau-or)<br/>An interactive dashboard to explore incidents. Use the Filter option to specifiy time period and other criteria. CAn be used for other agencies.
+* [Socrata Portland Service Bureau Incidents](http://moto.data.socrata.com/d/mmpn-q6w2):<br/>Explore the Portland Police Bureau Incident Dataset using Socrata. Can be used to mine, subset, visualize, download data.
+
 <a name="odps"></a>
-## Open Data Packaging Approach
+## Our Open Data Packaging Approach
 We have packaged this data product in accordance to our open data vision and principles, which aims at maximizing usability by (1) liberating data from proprietary formats, (2) capturing knowledge around the data in compliance with international best practices and metadata standards, and (3) facilitating immediate reuse in popular data management environments. See our [Open Data Packaging Services](http://www.mtna.us/odps) description for further information.
 
 The following steps are taken to repackage and publish the data:
@@ -60,7 +80,6 @@ The following steps are taken to repackage and publish the data:
 * Metadata describing the variables, their code lists / classifications, and file record structures is maitained in a workbook. This is based on a standard template that we can read to produce various outputs for further processing purposes. This includes scripts to read data in SlegdeHemmer or publish in Google BigQuery (see below). This tool is at this time only avalable internally (panned for open source release in 2017). 
 * We use our [SledgeHammer](http://www.mtna.us/sledgehammer) package to process the data and metadata, and generate all the programs, scripts, metadata, and compute descriptive statistics
 * Using the Google BigQuery console and command line tools, we publish and make the datasets available for analysis in BigQuery. This is publlicy accessiible and can be use from your own Google projects.
-
 
 <a name="contribute"></a>
 ## Contribute & Support
