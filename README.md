@@ -46,7 +46,7 @@ The following components are available:
 
 *Interested or need other outputs? [Contact us](http://www.mtna.us/contactus) with your needs and suggestion.* 
 
-The information is made available under Creative Commons Universal or BSD licences. See [license](#license) and [citation](#cite) below for details.
+The information is made available under Creative Commons Universal or BSD licences. See [licenses](#license) and [suggested citation](#cite) below for details.
 
 
 <a name="cfs"></a>
@@ -88,18 +88,18 @@ Putting this data product together and maintaining the repository takes time and
 * Let us know is you find any discrepancy or have suggestions towards enhancing the content or quality
 * Donations are always appreciated and can be made through [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GKAYVJSBLN92E)
 * Contact us if you would like to formally fund this work and optionally be credited as a sponsor
-* Visit us at [http://www.mtna.us](http://www.mtna.us) and consider using our products, services, or expertise
+* Visit us at [http://www.mtna.us](http://www.mtna.us) and consider using our products, services, expertise, or cloud solutions
 
-*And if you win the Challenge, accept our congratulations and consider above suggestions*
+*And if you win the Challenge, accept our congratulations and keep above suggestions in mind...*
 
 <a name="license"></a>
-## License
+## Licenses
 The data and metadata published here are licensed under the [Creative Commons CC0 1.0 Universal License](http://creativecommons.org/publicdomain/zero/1.0/). Users are advised to futher check licensing and usage conditions for of underlying materials with the respective custodians/ publsihers. 
 
 Programs, syntax, scripts and other software components are made available under the [BSD2 license](https://opensource.org/licenses/BSD-2-Clause).
 
 <a name="cite"></a>
-## Citation
+## Suggested Citation
 When publishing, presenting, or in general sharing your work, results, and outputs, the following suggested citation is optional but appreciated:
 
 *This work has been made possible with contributions and technical support from Metadata Technology North America Inc. (http://www.mtna.us)*

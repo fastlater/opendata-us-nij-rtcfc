@@ -34,9 +34,13 @@ import os
 import shutil
 import sys
 import tempfile
+import zipfile
 from zipfile import ZipFile
 
-def extract(zipPath,filePath,dirPath=tempfile.TemporaryDirectory().name):
+
+tempDir = tempfile.TemporaryDirectory()
+
+def extract(zipPath,filePath,dirPath):
     "Extract file from ZIP into specified directory"
     zipFile = ZipFile(zipPath)
     print("Extracting", filePath, " into ", dirPath)
@@ -47,25 +51,29 @@ def findDbf(zipPath):
     "Return the name of the .dbf file in the ZIP"
     print("Opening",zipPath)
     zipFile = ZipFile(zipPath)
-    dbfFileName = "NIJ2013_JAN01_DEC31.dbf"
-    return dbfFileName
+    zipFile.printdir()
+    dbfName=None
+    # dbfName = "NIJ2013_JAN01_DEC31.dbf"
+    for info in zipFile.infolist():
+        print(info)
+        if info.filename.lower().endswith(".dbf"):
+            dbfName=info.filename
+            break
+    return dbfName
 
-def getDbf(zipPath):
-    dbfPath = findDbf(zipPath)
-    dbf = DBF(extract(zipPath,dbfPath))
-    print("Version",dbf.dbversion)
+def getDbf(dbfPath):
+    dbf = DBF(dbfPath)
     for field in dbf.fields:
         print(field.name,field.type,field.length)
     return dbf
 
-def dbf2csv(dbf,csvPath,names=None,namesOnFirst=True,iso8601=True,zip=True):
+def dbf2csv(dbf,csvPath,names=None,namesOnFirst=True,iso8601=True,zip=True,limit=None,debug=False):
     "Writes DBF file to CSV"
     if not names:
         # use dbf field names
         names = dbf.field_names
 
     tempCsv=tempfile.NamedTemporaryFile()
-
     print("Writing",tempCsv.name)
     with open(tempCsv.name,'w', newline='') as csvfile:
         csvWriter = csv.writer(csvfile,quoting=csv.QUOTE_NONNUMERIC)
@@ -77,17 +85,16 @@ def dbf2csv(dbf,csvPath,names=None,namesOnFirst=True,iso8601=True,zip=True):
             # Convert float to integer
             for field,value in record.items():
                 if isinstance(value, float) and value.is_integer:
-                    print("Converting",value)
                     record[field] = int(value)
-            print(row,record)
+            if debug: print(row,record)
             csvWriter.writerow(record.values())
-            if row is 10: break
+            if limit and row is limit: break
 
     if zip:
         # compress
         zipPath=csvPath+".zip"
         zipFile = ZipFile(csvPath+".zip","w")
-        zipFile.write(tempCsv.name,arcname=dbf.name+".csv")
+        zipFile.write(tempCsv.name,arcname=dbf.name+".csv",compress_type=zipfile.ZIP_DEFLATED)
     else:
         # deliver file as is
         print("Copying file to "+csvPath)
@@ -111,8 +118,13 @@ if __name__ == '__main__':
     if not os.path.isdir(args.targetdir):
         raise RuntimeError(args.targetdir+" not found or is not a directory")
 
-    dbf=getDbf(args.zipfile)
-    dbf2csv(dbf,os.path.join(args.targetdir,"test.csv"),zip=False)
+    dbfName=findDbf(args.zipfile)
+    extract(args.zipfile, dbfName, tempDir.name)
+    dbf=getDbf(os.path.join(tempDir.name,dbfName))
+    dbf2csv(dbf,os.path.join(args.targetdir,"test.csv"))
+
+    print(tempDir.name)
+    #tempDir.cleanup()
 
 
 
