@@ -1,4 +1,6 @@
 #
+# Utility to extract data from NIJ CFS ESRI dataset and convert to CSV
+#
 # Copyright (c) 2016, Metadata Technology North America Inc. (http://www.mtna.us)
 # All rights reserved.
 #
@@ -29,8 +31,11 @@
 #
 
 import csv
+import datetime
 from dbfread import DBF
 import os
+import shapefile
+import re
 import shutil
 import sys
 import tempfile
@@ -43,7 +48,7 @@ tempDir = tempfile.TemporaryDirectory()
 def extract(zipPath,filePath,dirPath):
     "Extract file from ZIP into specified directory"
     zipFile = ZipFile(zipPath)
-    print("Extracting", filePath, " into ", dirPath)
+    print("Extracting",filePath,"into",dirPath)
     zipFile.extract(filePath, path=dirPath)
     return os.path.join(dirPath,filePath)
 
@@ -55,10 +60,10 @@ def findDbf(zipPath):
     dbfName=None
     # dbfName = "NIJ2013_JAN01_DEC31.dbf"
     for info in zipFile.infolist():
-        print(info)
         if info.filename.lower().endswith(".dbf"):
             dbfName=info.filename
             break
+    print("DBase filename is",dbfName)
     return dbfName
 
 def getDbf(dbfPath):
@@ -68,6 +73,8 @@ def getDbf(dbfPath):
     return dbf
 
 def dbf2csv(dbf,csvPath,names=None,namesOnFirst=True,iso8601=True,zip=True,limit=None,debug=False):
+    print("Converting ",dbf.name,"to CSV")
+
     "Writes DBF file to CSV"
     if not names:
         # use dbf field names
@@ -93,11 +100,12 @@ def dbf2csv(dbf,csvPath,names=None,namesOnFirst=True,iso8601=True,zip=True,limit
     if zip:
         # compress
         zipPath=csvPath+".zip"
+        print("Writing "+zipPath)
         zipFile = ZipFile(csvPath+".zip","w")
         zipFile.write(tempCsv.name,arcname=dbf.name+".csv",compress_type=zipfile.ZIP_DEFLATED)
     else:
         # deliver file as is
-        print("Copying file to "+csvPath)
+        print("Writing"+csvPath)
         # using shutil.copy instead of os.rename to avoid
         # cross-device link error on OSX with external drive
         shutil.copy(tempCsv.name,csvPath)
@@ -109,22 +117,46 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("zipfile")
     parser.add_argument("targetdir")
-    parser.add_argument("-c", "--config", help="The configuration file to use (overrides default)")
+    parser.add_argument("-nz","--nozip",action='store_true',help="Do not compress extracted CSV file")
     args = parser.parse_args()
+    print(args)
 
-    if not os.path.isfile(args.zipfile):
-        raise RuntimeError(args.zipfile+" not found or is not a file")
+    zipPath=args.zipfile
+    zipName=os.path.basename(zipPath)
+    targetPath=args.targetdir
 
-    if not os.path.isdir(args.targetdir):
-        raise RuntimeError(args.targetdir+" not found or is not a directory")
+    # validate
+    if not os.path.isfile(zipPath):
+        raise RuntimeError(zipPath+" not found or is not a file")
 
-    dbfName=findDbf(args.zipfile)
-    extract(args.zipfile, dbfName, tempDir.name)
+    if not os.path.isdir(targetPath):
+        raise RuntimeError(targetPath+" not found or is not a directory")
+
+    # setup time period
+    m=re.search("([\\d]{2})([\\d]{2})([\\d]{2})_([\\d]{2})([\\d]{2})([\\d]{2}).*\.zip",zipName)
+    if not m or len(m.groups()) is not 6:
+        raise RuntimeError("Unexpected zip file name "+zipName+". Should match the pattern 'MMDDYY_MMDDYY_Data.zip'")
+
+    print(m.groups())
+    fromDate=datetime.date(2000+int(m.group(3)),int(m.group(1)),int(m.group(2)))
+    toDate=datetime.date(2000+int(m.group(6)),int(m.group(4)),int(m.group(5)))
+    print(fromDate.isoformat())
+    print(toDate.isoformat())
+
+    # get DBF file name
+    dbfName=findDbf(zipPath)
+
+    # extract dbf
+    extract(zipPath, dbfName, tempDir.name)
+
+    # open DBF
     dbf=getDbf(os.path.join(tempDir.name,dbfName))
-    dbf2csv(dbf,os.path.join(args.targetdir,"test.csv"))
 
-    print(tempDir.name)
-    #tempDir.cleanup()
+    # Export to CSV
+    csvName = "NIJ_CFS_PORTLAND_"+fromDate.isoformat().replace("-","")+"_"+toDate.isoformat().replace("-","")+".csv"
+    csvPath = os.path.join(targetPath,csvName)
+    dbf2csv(dbf,csvPath,zip=not(args.nozip))
+
 
 
 

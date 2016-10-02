@@ -1,5 +1,4 @@
-I# NIJ Real-Time Crime Forecasting Challenge Open Data
-
+# NIJ Real-Time Crime Forecasting Challenge Open Data
 <div style="float:right;margin-left:10px">
 <div><a href="http://nij.gov/funding/Pages/fy16-crime-forecasting-challenge.aspx" target="_blank"><img src="media/forecasting-challenge-for-page.png"</img></a></div>
 </div>
@@ -23,37 +22,34 @@ This repository provides access to an **open data** repackaged and cloud queryab
 <div style="float:right;margin-left:10px" >
 <div><a href="http://www.mtna.us" target="_blank"><img src="media/mtna_logo_200x82.png"</img></a></div>
 </div>
-Our company, [Metadata Technology North America](http://wwwm.mtna.us), provides products, services, expertise, and cloud infrastructure aiming at improving accessibility, quality, and usefulness of data by leveraging modern technologies, standards, and good practices. This is motivated by our vision that better data can create a better world. 
+We are not participating in the Challenge. Our company, [Metadata Technology North America](http://wwwm.mtna.us), provides products, services, expertise, and cloud infrastructure aiming at improving accessibility, quality, and usefulness of data by leveraging modern technologies, standards, and good practices. This is motivated by our vision that better data can create a better world. 
 
 By repackaging the NIJ Challenge dataset into open formats, we hope to:
 
-1. Support the initiative by making the data easier to access, use, and analyze
+1. Support the Challenge by making the data easier to access, use, and analyze
 2. Encourage data producers and publishers to modernize their data publication practices
 3. Promote the adoption of open data formats, metadata standards, and best practices
-3. Generate interest in our vision and foster collaborative projects
+4. Share our vision and showcase our products, services, and expertise
 
-See [Contribute & Support](#contribute) below for ways to support this work or [contact us[(http://www.mtna.us/contactus?subject=nij-challenge) for information.
-
-*Note that we are not participating in the Challenge.*
+See [Contribute & Support](#contribute) below for ways to support these efforts or [contact us](http://www.mtna.us/contactus?subject=nij-challenge) for information.
 
 <a name="contents"></a>
 ## What's made available here?
-The following components are available:
 
-* A cumulative version of the **calls-for-service (CFS) data** is available in **comma separated (CSV)** and **fixed ASCII** text formats in the [```/data```](#data)directory. This has been extracted from the dBase files in the distributed ESRI package and combines the annual/monthly data files published by NIJ into a single dataset.
-* **Cloud** accessible version of the databases in [**Google BiqQuery**](https://cloud.google.com/bigquery/) ([see below](#cloud))
+* A cumulative version of the **calls-for-service (CFS) dataset** in **comma separated (CSV)** and **fixed ASCII** text formats in the [```/data```](#data)directory. This has been extracted from the dBase files in the distributed ESRI package and combines the annual/monthly data files published by NIJ into a single dataset.
 * **Programs** to read the text data into [**R**](http://www.r-project.com),  [**SAS**](http://www.sas.com), [**SPSS**](http://www.spss.com), [**Stata**](http://www.stata.com), [**Stat/Transfer**)[www.stattransfer.com/] are in the [```/syntax```](syntax) directory. These include when relevant syntax for value labels.
 * **SQL scripts** to create and load the data in [**MS-SQL**](https://www.microsoft.com/en-us/cloud-platform/sql-server), [**MySql**](http://www.mysql.com), [**MonetDB**](http://www.monetdb.org), [**Oracle**](http://www.oracle.com), [**Vertica**](www.vertica.com) databases are in the [```/sql```](sql)directory. This includes code to generate the database schema and dimension/lookup tables. These scripts rely on the SQL friendly version of the text data (.sql.csv file).
-* **Documentation**, mostly automatically generated from the data and metadata, is in the [```/docs``` directory. This includes PDF data dictionaries.
-* **Metadata** in [**DDI**](http://www.ddialliance.org) and [**Triple-S**](http://www.triple-s.org) is available in the [```/metadata```](metadata) directory . This also includes **descriptive statistics** (summary and frequencies) which are available in CSV files and embedded in DDI.
+* **Cloud** accessible and dynamically **queryable** instances of the data in [**Google BiqQuery**](https://cloud.google.com/bigquery/) ([see below](#cloud))
+* **Documentation**, mostly automatically generated from the data and metadata in the [```/docs```](docs) directory. This includes PDF data dictionaries.
+* **Metadata** in [**DDI**](http://www.ddialliance.org) and [**Triple-S**](http://www.triple-s.org) XML formats in the [```/metadata```](metadata) directory . This also includes **descriptive statistics** (summary and frequencies) which are available in CSV files and embedded in DDI.
 
-*Interested or need other outputs? [Contact us](http://www.mtna.us/contactus) with your needs and suggestion.* 
+*Interested or need other outputs? [Contact us](http://www.mtna.us/contactus?subject=nij-challenge) with your needs and suggestion.* 
 
 The information is made available under Creative Commons Universal or BSD licenses. See [licenses](#license) and [suggested citation](#cite) below for details.
 
 <a name="cloud"></a>
 ## Cloud / Queryable Data Sources
-The data is published and accessible ins the following cloud based queryable data sources
+The data is published and accessible in the following cloud based data sources or APIs
 
 <a name="bq"></a>
 ### Google BigQuery
