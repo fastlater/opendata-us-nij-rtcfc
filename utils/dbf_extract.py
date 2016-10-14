@@ -1,5 +1,5 @@
 #
-# Utility to extract data from NIJ CFS ESRI dataset and convert to CSV
+# Utility to extract data from NIJ CFS ESRI dataset (DBF) and convert to CSV
 #
 # Copyright (c) 2016, Metadata Technology North America Inc. (http://www.mtna.us)
 # All rights reserved.
@@ -29,6 +29,8 @@
 # OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
+
+from __future__ import print_function
 
 import csv
 import datetime
@@ -115,8 +117,8 @@ def dbf2csv(dbf,csvPath,names=None,namesOnFirst=True,iso8601=True,zip=True,limit
 if __name__ == '__main__':
     import argparse
     parser = argparse.ArgumentParser()
-    parser.add_argument("zipfile")
-    parser.add_argument("targetdir")
+    parser.add_argument("zipfile",help="The zip file holding the database")
+    parser.add_argument("targetdir",help="The output directory where the data will be extracted")
     parser.add_argument("-nz","--nozip",action='store_true',help="Do not compress extracted CSV file")
     args = parser.parse_args()
     print(args)
