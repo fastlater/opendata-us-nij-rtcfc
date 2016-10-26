@@ -19,22 +19,6 @@ This repository provides access to an **open data** repackaged and cloud queryab
 * [Licenses](#license)
 * [Citation](#cite)
 
-<a name="rationale"></a>
-## Why are we doing this?
-<div style="float:right;margin-left:10px" >
-<div><a href="http://www.mtna.us" target="_blank"><img src="media/mtna_logo_200x82.png"</img></a></div>
-</div>
-We are not participating in the Challenge. Our company, [Metadata Technology North America](http://wwwm.mtna.us), provides products, services, expertise, and cloud infrastructure aiming at improving accessibility, quality, and usefulness of data by leveraging modern technologies, standards, and good practices. This is motivated by our vision that better data can create a better world. 
-
-By repackaging the NIJ Challenge dataset into open formats, we hope to:
-
-1. Support the Challenge by making the data easier to access, use, and analyze
-2. Encourage data producers and publishers to modernize their data publication practices
-3. Promote the adoption of open data formats, metadata standards, and best practices
-4. Share our vision and showcase our products, services, and expertise
-
-See [Contribute & Support](#contribute) below for ways to support these efforts or [contact us](http://www.mtna.us/contactus?subject=nij-challenge) for information.
-
 <a name="contents"></a>
 ## What's made available here?
 
@@ -81,6 +65,22 @@ The current data release covers the March 2012 to September 2016 period. This pr
 
 ### Data Dictionary
 The CFS record definition is based on the structure and content as described on the NIJ of web site. Note that we have preserved the original field names and casing to ensure compatibility with existing code. 
+
+<a name="rationale"></a>
+## Why are we doing this?
+<div style="float:right;margin-left:10px" >
+<div><a href="http://www.mtna.us" target="_blank"><img src="media/mtna_logo_200x82.png"</img></a></div>
+</div>
+We are not participating in the Challenge. Our company, [Metadata Technology North America](http://wwwm.mtna.us), provides products, services, expertise, and cloud infrastructure aiming at improving accessibility, quality, and usefulness of data by leveraging modern technologies, standards, and good practices. This is motivated by our vision that better data can create a better world. 
+
+By repackaging the NIJ Challenge dataset into open formats, we hope to:
+
+1. Support the Challenge by making the data easier to access, use, and analyze
+2. Encourage data producers and publishers to modernize their data publication practices
+3. Promote the adoption of open data formats, metadata standards, and best practices
+4. Share our vision and showcase our products, services, and expertise
+
+See [Contribute & Support](#contribute) below for ways to support these efforts or [contact us](http://www.mtna.us/contactus?subject=nij-challenge) for information.
 
 <a name="odps"></a>
 ## Our Open Data Packaging Process
