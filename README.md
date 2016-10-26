@@ -9,11 +9,11 @@ This repository provides access to an **open data** repackaged and cloud queryab
 
 <a name="toc"></a>
 ## TOC
-* [Why are we doing this?](#rationale)
 * [What's available here?](#content)
 * [Cloud / Queryable Data Sources](#cloud)
 * [Other Resources](#resources)
 * [Calls-for-service dataset](#cfs)
+* [Why are we doing this?](#rationale)
 * [Our Open Data Packaging Process](#odps)
 * [Contribute & Support](#contribute)
 * [Licenses](#license)
