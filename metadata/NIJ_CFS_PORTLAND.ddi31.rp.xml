@@ -1,0 +1,2398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file was produced automatically by the OpenDataForge
+ Lifecycle XML Generator v2016.10.26                     
+                                                          
+ For more information on our products or services visit	 
+ http://www.mtna.us.-->
+<ddi:DDIInstance agency="us.mtna" version="1.0.0" xml:lang="en" id="Q1T3CI5J3QVJChJU" urn="urn:ddi:us.mtna:DDIInstance.Q1T3CI5J3QVJChJU.1.0.0" xmlns:ddi="ddi:instance:3_1">
+  <ddi1:ResourcePackage agency="us.mtna" version="1.0.0" xml:lang="en" id="zqqyc7GW7GFTOPyX" urn="urn:ddi:us.mtna:ResourcePackage.zqqyc7GW7GFTOPyX.1.0.0" xmlns:ddi1="ddi:group:3_1">
+    <ddi1:Purpose id="n7CtzNxH" urn="urn:ddi:us.mtna:ResourcePackage.zqqyc7GW7GFTOPyX.1.0.0:Purpose.n7CtzNxH.1.0.0">
+      <ddi2:Content xmlns:ddi2="ddi:reusable:3_1"/>
+    </ddi1:Purpose>
+    <ddi1:LogicalProduct>
+      <ddi2:LogicalProduct agency="us.mtna" version="1.0.0" xml:lang="en" id="Fan4Z2PvCckQcBtd" urn="urn:ddi:us.mtna:LogicalProduct.Fan4Z2PvCckQcBtd.1.0.0" xmlns:ddi2="ddi:logicalproduct:3_1">
+        <ddi2:LogicalProductName>NIJ_CFS_PORTLAND</ddi2:LogicalProductName>
+        <ddi2:DataRelationship id="G5pocVBj" version="1.0.0" versionDate="2016-10-26T16:44:39Z" urn="urn:ddi:us.mtna:LogicalProduct.Fan4Z2PvCckQcBtd.1.0.0:DataRelationship.G5pocVBj.1.0.0">
+          <ddi2:LogicalRecord hasLocator="false" id="EOSbdlBO" urn="urn:ddi:us.mtna:LogicalProduct.Fan4Z2PvCckQcBtd.1.0.0:LogicalRecord.EOSbdlBO.1.0.0">
+            <ddi2:LogicalRecordName>NIJ_CFS_PORTLAND</ddi2:LogicalRecordName>
+            <ddi2:VariablesInRecord allVariablesInLogicalProduct="false">
+              <ddi2:VariableUsedReference>
+                <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0:Variable.NMpmdprz.1.0.0</ddi3:URN>
+              </ddi2:VariableUsedReference>
+              <ddi2:VariableUsedReference>
+                <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0:Variable.IYVbzAfS.1.0.0</ddi3:URN>
+              </ddi2:VariableUsedReference>
+              <ddi2:VariableUsedReference>
+                <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0:Variable.z2DnmCrt.1.0.0</ddi3:URN>
+              </ddi2:VariableUsedReference>
+              <ddi2:VariableUsedReference>
+                <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0:Variable.bmLBM3x9.1.0.0</ddi3:URN>
+              </ddi2:VariableUsedReference>
+              <ddi2:VariableUsedReference>
+                <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0:Variable.kaQ53qCr.1.0.0</ddi3:URN>
+              </ddi2:VariableUsedReference>
+              <ddi2:VariableUsedReference>
+                <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0:Variable.GVBK60CS.1.0.0</ddi3:URN>
+              </ddi2:VariableUsedReference>
+              <ddi2:VariableUsedReference>
+                <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0:Variable.hBVecq7b.1.0.0</ddi3:URN>
+              </ddi2:VariableUsedReference>
+              <ddi2:VariableUsedReference>
+                <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0:Variable.vcY9o1t0.1.0.0</ddi3:URN>
+              </ddi2:VariableUsedReference>
+            </ddi2:VariablesInRecord>
+          </ddi2:LogicalRecord>
+        </ddi2:DataRelationship>
+        <ddi2:CategorySchemeReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.mPh9HDYhLqp7nRbH.1.0.0</ddi3:URN>
+        </ddi2:CategorySchemeReference>
+        <ddi2:CategorySchemeReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wU0fCbSzQfcih8Cw.1.0.0</ddi3:URN>
+        </ddi2:CategorySchemeReference>
+        <ddi2:CategorySchemeReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0</ddi3:URN>
+        </ddi2:CategorySchemeReference>
+        <ddi2:CodeSchemeReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CodeScheme.pfFRdT8NnMAX7O0V.1.0.0</ddi3:URN>
+        </ddi2:CodeSchemeReference>
+        <ddi2:CodeSchemeReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CodeScheme.V5Q7F28Dq5AiWB3u.1.0.0</ddi3:URN>
+        </ddi2:CodeSchemeReference>
+        <ddi2:CodeSchemeReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CodeScheme.akspI6WDb4tEVY8J.1.0.0</ddi3:URN>
+        </ddi2:CodeSchemeReference>
+        <ddi2:VariableSchemeReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0</ddi3:URN>
+        </ddi2:VariableSchemeReference>
+      </ddi2:LogicalProduct>
+    </ddi1:LogicalProduct>
+    <ddi1:PhysicalDataProduct>
+      <ddi2:PhysicalDataProduct agency="us.mtna" version="1.0.0" xml:lang="en" id="jjb6rTO5WsYkd0TQ" urn="urn:ddi:us.mtna:PhysicalDataProduct.jjb6rTO5WsYkd0TQ.1.0.0" xmlns:ddi2="ddi:physicaldataproduct:3_1">
+        <ddi2:PhysicalDataProductName>NIJ_CFS_PORTLAND</ddi2:PhysicalDataProductName>
+        <ddi2:PhysicalStructureScheme id="cqVw92xvsPbIcnZZ" version="1.0.0" agency="us.mtna" urn="urn:ddi:us.mtna:PhysicalStructureScheme.cqVw92xvsPbIcnZZ.1.0.0">
+          <ddi2:PhysicalStructure id="z58ty1cG" version="1.0.0" urn="urn:ddi:us.mtna:PhysicalStructureScheme.cqVw92xvsPbIcnZZ.1.0.0:PhysicalStructure.z58ty1cG.1.0.0">
+            <ddi2:LogicalProductReference>
+              <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:LogicalProduct.Fan4Z2PvCckQcBtd.1.0.0</ddi3:URN>
+            </ddi2:LogicalProductReference>
+            <ddi2:Format>ASCII</ddi2:Format>
+            <ddi2:GrossRecordStructure id="c7IsNJct" urn="urn:ddi:us.mtna:PhysicalStructureScheme.cqVw92xvsPbIcnZZ.1.0.0:GrossRecordStructure.c7IsNJct.1.0.0" numberOfPhysicalSegments="1">
+              <ddi2:LogicalRecordReference>
+                <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:LogicalProduct.Fan4Z2PvCckQcBtd.1.0.0:LogicalRecord.EOSbdlBO.1.0.0</ddi3:URN>
+              </ddi2:LogicalRecordReference>
+              <ddi2:PhysicalRecordSegment id="kx81hGdh" urn="urn:ddi:us.mtna:PhysicalStructureScheme.cqVw92xvsPbIcnZZ.1.0.0:PhysicalRecordSegment.kx81hGdh.1.0.0" hasSegmentKey="false" segmentOrder="1"/>
+            </ddi2:GrossRecordStructure>
+          </ddi2:PhysicalStructure>
+        </ddi2:PhysicalStructureScheme>
+        <ddi2:RecordLayoutScheme id="aa9Ru7ebZ6yEzpkY" version="1.0.0" agency="us.mtna" urn="urn:ddi:us.mtna:RecordLayoutScheme.aa9Ru7ebZ6yEzpkY.1.0.0">
+          <ddi2:RecordLayout id="ASCII" version="1.0.0" urn="urn:ddi:us.mtna:RecordLayoutScheme.aa9Ru7ebZ6yEzpkY.1.0.0:RecordLayout.ASCII.1.0.0">
+            <ddi2:PhysicalStructureReference>
+              <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:PhysicalStructureScheme.cqVw92xvsPbIcnZZ.1.0.0:PhysicalStructure.z58ty1cG.1.0.0</ddi3:URN>
+              <ddi2:PhysicalRecordSegmentUsed>kx81hGdh</ddi2:PhysicalRecordSegmentUsed>
+            </ddi2:PhysicalStructureReference>
+            <ddi2:CharacterSet>ASCII</ddi2:CharacterSet>
+            <ddi2:ArrayBase>1</ddi2:ArrayBase>
+            <ddi2:DefaultVariableSchemeReference>
+              <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0</ddi3:URN>
+            </ddi2:DefaultVariableSchemeReference>
+            <ddi2:DataItem>
+              <ddi2:VariableReference>
+                <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0:Variable.NMpmdprz.1.0.0</ddi3:URN>
+              </ddi2:VariableReference>
+              <ddi2:PhysicalLocation>
+                <ddi2:StartPosition>1</ddi2:StartPosition>
+                <ddi2:ArrayPosition>1</ddi2:ArrayPosition>
+                <ddi2:EndPosition>19</ddi2:EndPosition>
+                <ddi2:Width>19</ddi2:Width>
+                <ddi2:DecimalPositions>0</ddi2:DecimalPositions>
+              </ddi2:PhysicalLocation>
+            </ddi2:DataItem>
+            <ddi2:DataItem>
+              <ddi2:VariableReference>
+                <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0:Variable.IYVbzAfS.1.0.0</ddi3:URN>
+              </ddi2:VariableReference>
+              <ddi2:PhysicalLocation>
+                <ddi2:StartPosition>20</ddi2:StartPosition>
+                <ddi2:ArrayPosition>2</ddi2:ArrayPosition>
+                <ddi2:EndPosition>37</ddi2:EndPosition>
+                <ddi2:Width>18</ddi2:Width>
+                <ddi2:DecimalPositions>0</ddi2:DecimalPositions>
+              </ddi2:PhysicalLocation>
+            </ddi2:DataItem>
+            <ddi2:DataItem>
+              <ddi2:VariableReference>
+                <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0:Variable.z2DnmCrt.1.0.0</ddi3:URN>
+              </ddi2:VariableReference>
+              <ddi2:PhysicalLocation>
+                <ddi2:StartPosition>38</ddi2:StartPosition>
+                <ddi2:ArrayPosition>3</ddi2:ArrayPosition>
+                <ddi2:EndPosition>43</ddi2:EndPosition>
+                <ddi2:Width>6</ddi2:Width>
+                <ddi2:DecimalPositions>0</ddi2:DecimalPositions>
+              </ddi2:PhysicalLocation>
+            </ddi2:DataItem>
+            <ddi2:DataItem>
+              <ddi2:VariableReference>
+                <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0:Variable.bmLBM3x9.1.0.0</ddi3:URN>
+              </ddi2:VariableReference>
+              <ddi2:PhysicalLocation>
+                <ddi2:StartPosition>44</ddi2:StartPosition>
+                <ddi2:ArrayPosition>4</ddi2:ArrayPosition>
+                <ddi2:EndPosition>88</ddi2:EndPosition>
+                <ddi2:Width>45</ddi2:Width>
+                <ddi2:DecimalPositions>0</ddi2:DecimalPositions>
+              </ddi2:PhysicalLocation>
+            </ddi2:DataItem>
+            <ddi2:DataItem>
+              <ddi2:VariableReference>
+                <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0:Variable.kaQ53qCr.1.0.0</ddi3:URN>
+              </ddi2:VariableReference>
+              <ddi2:PhysicalLocation>
+                <ddi2:StartPosition>89</ddi2:StartPosition>
+                <ddi2:ArrayPosition>5</ddi2:ArrayPosition>
+                <ddi2:EndPosition>98</ddi2:EndPosition>
+                <ddi2:Width>10</ddi2:Width>
+                <ddi2:DecimalPositions>0</ddi2:DecimalPositions>
+              </ddi2:PhysicalLocation>
+            </ddi2:DataItem>
+            <ddi2:DataItem>
+              <ddi2:VariableReference>
+                <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0:Variable.GVBK60CS.1.0.0</ddi3:URN>
+              </ddi2:VariableReference>
+              <ddi2:PhysicalLocation>
+                <ddi2:StartPosition>99</ddi2:StartPosition>
+                <ddi2:ArrayPosition>6</ddi2:ArrayPosition>
+                <ddi2:EndPosition>105</ddi2:EndPosition>
+                <ddi2:Width>7</ddi2:Width>
+                <ddi2:DecimalPositions>0</ddi2:DecimalPositions>
+              </ddi2:PhysicalLocation>
+            </ddi2:DataItem>
+            <ddi2:DataItem>
+              <ddi2:VariableReference>
+                <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0:Variable.hBVecq7b.1.0.0</ddi3:URN>
+              </ddi2:VariableReference>
+              <ddi2:PhysicalLocation>
+                <ddi2:StartPosition>106</ddi2:StartPosition>
+                <ddi2:ArrayPosition>7</ddi2:ArrayPosition>
+                <ddi2:EndPosition>111</ddi2:EndPosition>
+                <ddi2:Width>6</ddi2:Width>
+                <ddi2:DecimalPositions>0</ddi2:DecimalPositions>
+              </ddi2:PhysicalLocation>
+            </ddi2:DataItem>
+            <ddi2:DataItem>
+              <ddi2:VariableReference>
+                <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0:Variable.vcY9o1t0.1.0.0</ddi3:URN>
+              </ddi2:VariableReference>
+              <ddi2:PhysicalLocation>
+                <ddi2:StartPosition>112</ddi2:StartPosition>
+                <ddi2:ArrayPosition>8</ddi2:ArrayPosition>
+                <ddi2:EndPosition>117</ddi2:EndPosition>
+                <ddi2:Width>6</ddi2:Width>
+                <ddi2:DecimalPositions>0</ddi2:DecimalPositions>
+              </ddi2:PhysicalLocation>
+            </ddi2:DataItem>
+          </ddi2:RecordLayout>
+        </ddi2:RecordLayoutScheme>
+      </ddi2:PhysicalDataProduct>
+    </ddi1:PhysicalDataProduct>
+    <ddi1:PhysicalDataProduct>
+      <ddi2:PhysicalDataProduct agency="us.mtna" version="1.0.0" xml:lang="en" id="NE82MZG1wauB1WWJ" urn="urn:ddi:us.mtna:PhysicalDataProduct.NE82MZG1wauB1WWJ.1.0.0" xmlns:ddi2="ddi:physicaldataproduct:3_1">
+        <ddi2:PhysicalStructureScheme id="of7e0gsRVI3PchTP" version="1.0.0" agency="us.mtna" urn="urn:ddi:us.mtna:PhysicalStructureScheme.of7e0gsRVI3PchTP.1.0.0">
+          <ddi2:PhysicalStructure id="VJLhgj9V" version="1.0.0" urn="urn:ddi:us.mtna:PhysicalStructureScheme.of7e0gsRVI3PchTP.1.0.0:PhysicalStructure.VJLhgj9V.1.0.0">
+            <ddi2:LogicalProductReference>
+              <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:LogicalProduct.Fan4Z2PvCckQcBtd.1.0.0</ddi3:URN>
+            </ddi2:LogicalProductReference>
+            <ddi2:Format/>
+            <ddi2:GrossRecordStructure id="bnnEPE6r" urn="urn:ddi:us.mtna:PhysicalStructureScheme.of7e0gsRVI3PchTP.1.0.0:GrossRecordStructure.bnnEPE6r.1.0.0" numberOfPhysicalSegments="1">
+              <ddi2:LogicalRecordReference>
+                <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:LogicalProduct.Fan4Z2PvCckQcBtd.1.0.0:LogicalRecord.EOSbdlBO.1.0.0</ddi3:URN>
+              </ddi2:LogicalRecordReference>
+              <ddi2:PhysicalRecordSegment id="I9kzvZ7A" urn="urn:ddi:us.mtna:PhysicalStructureScheme.of7e0gsRVI3PchTP.1.0.0:PhysicalRecordSegment.I9kzvZ7A.1.0.0" hasSegmentKey="false" segmentOrder="1"/>
+            </ddi2:GrossRecordStructure>
+          </ddi2:PhysicalStructure>
+        </ddi2:PhysicalStructureScheme>
+        <ddi2:RecordLayoutScheme id="kgXYuDDLFfJC7PBD" version="1.0.0" agency="us.mtna" urn="urn:ddi:us.mtna:RecordLayoutScheme.kgXYuDDLFfJC7PBD.1.0.0">
+          <ddi3:ProprietaryRecordLayout id="WKV7zpau" version="1.0.0" urn="urn:ddi:us.mtna:RecordLayoutScheme.kgXYuDDLFfJC7PBD.1.0.0:ProprietaryRecordLayout.WKV7zpau.1.0.0" xmlns:ddi3="ddi:physicaldataproduct_proprietary:3_1">
+            <ddi2:PhysicalStructureReference>
+              <ddi4:URN xmlns:ddi4="ddi:reusable:3_1">urn:ddi:us.mtna:PhysicalStructureScheme.of7e0gsRVI3PchTP.1.0.0:PhysicalStructure.VJLhgj9V.1.0.0</ddi4:URN>
+              <ddi2:PhysicalRecordSegmentUsed>I9kzvZ7A</ddi2:PhysicalRecordSegmentUsed>
+            </ddi2:PhysicalStructureReference>
+            <ddi4:Software id="LAQ8PNv1" urn="urn:ddi:us.mtna:RecordLayoutScheme.kgXYuDDLFfJC7PBD.1.0.0:Software.LAQ8PNv1.1.0.0" xmlns:ddi4="ddi:reusable:3_1">
+              <ddi4:Name/>
+              <ddi4:Description>A data file based off the DDI Codebook 2.5 file metasheet.cfs_dbf.ddi.xml.</ddi4:Description>
+            </ddi4:Software>
+            <ddi3:DefaultVariableSchemeReference>
+              <ddi4:URN xmlns:ddi4="ddi:reusable:3_1">urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0</ddi4:URN>
+            </ddi3:DefaultVariableSchemeReference>
+            <ddi3:DataItem>
+              <ddi3:VariableReference>
+                <ddi4:URN xmlns:ddi4="ddi:reusable:3_1">urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0:Variable.NMpmdprz.1.0.0</ddi4:URN>
+              </ddi3:VariableReference>
+              <ddi3:ProprietaryDataType/>
+              <ddi3:ProprietaryOutputFormat/>
+            </ddi3:DataItem>
+            <ddi3:DataItem>
+              <ddi3:VariableReference>
+                <ddi4:URN xmlns:ddi4="ddi:reusable:3_1">urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0:Variable.IYVbzAfS.1.0.0</ddi4:URN>
+              </ddi3:VariableReference>
+              <ddi3:ProprietaryDataType/>
+              <ddi3:ProprietaryOutputFormat/>
+            </ddi3:DataItem>
+            <ddi3:DataItem>
+              <ddi3:VariableReference>
+                <ddi4:URN xmlns:ddi4="ddi:reusable:3_1">urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0:Variable.z2DnmCrt.1.0.0</ddi4:URN>
+              </ddi3:VariableReference>
+              <ddi3:ProprietaryDataType/>
+              <ddi3:ProprietaryOutputFormat/>
+            </ddi3:DataItem>
+            <ddi3:DataItem>
+              <ddi3:VariableReference>
+                <ddi4:URN xmlns:ddi4="ddi:reusable:3_1">urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0:Variable.bmLBM3x9.1.0.0</ddi4:URN>
+              </ddi3:VariableReference>
+              <ddi3:ProprietaryDataType/>
+              <ddi3:ProprietaryOutputFormat/>
+            </ddi3:DataItem>
+            <ddi3:DataItem>
+              <ddi3:VariableReference>
+                <ddi4:URN xmlns:ddi4="ddi:reusable:3_1">urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0:Variable.kaQ53qCr.1.0.0</ddi4:URN>
+              </ddi3:VariableReference>
+              <ddi3:ProprietaryDataType/>
+              <ddi3:ProprietaryOutputFormat/>
+            </ddi3:DataItem>
+            <ddi3:DataItem>
+              <ddi3:VariableReference>
+                <ddi4:URN xmlns:ddi4="ddi:reusable:3_1">urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0:Variable.GVBK60CS.1.0.0</ddi4:URN>
+              </ddi3:VariableReference>
+              <ddi3:ProprietaryDataType/>
+              <ddi3:ProprietaryOutputFormat/>
+            </ddi3:DataItem>
+            <ddi3:DataItem>
+              <ddi3:VariableReference>
+                <ddi4:URN xmlns:ddi4="ddi:reusable:3_1">urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0:Variable.hBVecq7b.1.0.0</ddi4:URN>
+              </ddi3:VariableReference>
+              <ddi3:ProprietaryDataType/>
+              <ddi3:ProprietaryOutputFormat/>
+            </ddi3:DataItem>
+            <ddi3:DataItem>
+              <ddi3:VariableReference>
+                <ddi4:URN xmlns:ddi4="ddi:reusable:3_1">urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0:Variable.vcY9o1t0.1.0.0</ddi4:URN>
+              </ddi3:VariableReference>
+              <ddi3:ProprietaryDataType/>
+              <ddi3:ProprietaryOutputFormat/>
+            </ddi3:DataItem>
+          </ddi3:ProprietaryRecordLayout>
+        </ddi2:RecordLayoutScheme>
+      </ddi2:PhysicalDataProduct>
+    </ddi1:PhysicalDataProduct>
+    <ddi2:PhysicalInstance agency="us.mtna" version="1.0.0" xml:lang="en" id="Pv3bqtYziYqTEZDL" urn="urn:ddi:us.mtna:PhysicalInstance.Pv3bqtYziYqTEZDL.1.0.0" xmlns:ddi2="ddi:physicalinstance:3_1">
+      <ddi2:RecordLayoutReference>
+        <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:RecordLayoutScheme.aa9Ru7ebZ6yEzpkY.1.0.0:RecordLayout.ASCII.1.0.0</ddi3:URN>
+      </ddi2:RecordLayoutReference>
+      <ddi2:DataFileIdentification id="HOhj2ZHl" urn="urn:ddi:us.mtna:PhysicalInstance.Pv3bqtYziYqTEZDL.1.0.0:DataFileIdentification.HOhj2ZHl.1.0.0">
+        <ddi2:URI>NIJ_CFS_PORTLAND</ddi2:URI>
+      </ddi2:DataFileIdentification>
+      <ddi2:GrossFileStructure id="O1I0MhBB" urn="urn:ddi:us.mtna:PhysicalInstance.Pv3bqtYziYqTEZDL.1.0.0:GrossFileStructure.O1I0MhBB.1.0.0">
+        <ddi2:CreationSoftware id="QAqi749I" urn="urn:ddi:us.mtna:PhysicalInstance.Pv3bqtYziYqTEZDL.1.0.0:CreationSoftware.QAqi749I.1.0.0">
+          <ddi3:Name xmlns:ddi3="ddi:reusable:3_1">SledgeHammer</ddi3:Name>
+        </ddi2:CreationSoftware>
+        <ddi2:CaseQuantity>876265</ddi2:CaseQuantity>
+      </ddi2:GrossFileStructure>
+      <ddi2:Statistics>
+        <ddi2:VariableStatistics>
+          <ddi2:VariableReference>
+            <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0:Variable.NMpmdprz.1.0.0</ddi3:URN>
+          </ddi2:VariableReference>
+          <ddi2:SummaryStatistic>
+            <ddi2:SummaryStatisticType>ValidCases</ddi2:SummaryStatisticType>
+            <ddi2:Weighted>false</ddi2:Weighted>
+            <ddi2:Value>876265</ddi2:Value>
+          </ddi2:SummaryStatistic>
+          <ddi2:SummaryStatistic>
+            <ddi2:SummaryStatisticType>InvalidCases</ddi2:SummaryStatisticType>
+            <ddi2:Weighted>false</ddi2:Weighted>
+            <ddi2:Value>0</ddi2:Value>
+          </ddi2:SummaryStatistic>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>STC</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>0.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>OTH</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>0.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>MVT</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>0.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>BUR</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>0.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+        </ddi2:VariableStatistics>
+        <ddi2:VariableStatistics>
+          <ddi2:VariableReference>
+            <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0:Variable.IYVbzAfS.1.0.0</ddi3:URN>
+          </ddi2:VariableReference>
+          <ddi2:SummaryStatistic>
+            <ddi2:SummaryStatisticType>ValidCases</ddi2:SummaryStatisticType>
+            <ddi2:Weighted>false</ddi2:Weighted>
+            <ddi2:Value>876265</ddi2:Value>
+          </ddi2:SummaryStatistic>
+          <ddi2:SummaryStatistic>
+            <ddi2:SummaryStatisticType>InvalidCases</ddi2:SummaryStatisticType>
+            <ddi2:Weighted>false</ddi2:Weighted>
+            <ddi2:Value>0</ddi2:Value>
+          </ddi2:SummaryStatistic>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>DISORDER</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>285122.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>PERSON CRIME</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>45853.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>SUSPICIOUS</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>120183.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>NON CRIMINAL/ADMIN</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>177531.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>PROPERTY CRIME</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>151614.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>TRAFFIC</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>95961.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+        </ddi2:VariableStatistics>
+        <ddi2:VariableStatistics>
+          <ddi2:VariableReference>
+            <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0:Variable.z2DnmCrt.1.0.0</ddi3:URN>
+          </ddi2:VariableReference>
+          <ddi2:SummaryStatistic>
+            <ddi2:SummaryStatisticType>ValidCases</ddi2:SummaryStatisticType>
+            <ddi2:Weighted>false</ddi2:Weighted>
+            <ddi2:Value>876265</ddi2:Value>
+          </ddi2:SummaryStatistic>
+          <ddi2:SummaryStatistic>
+            <ddi2:SummaryStatisticType>InvalidCases</ddi2:SummaryStatisticType>
+            <ddi2:Weighted>false</ddi2:Weighted>
+            <ddi2:Value>0</ddi2:Value>
+          </ddi2:SummaryStatistic>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>DISTP</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>94003.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>DISTW</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>2878.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>VICE</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>13871.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>ASSLTP</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>14658.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>ASSLTW</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>677.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>ROBP</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>1808.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>ROBW</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>1036.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>SHOOTW</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>234.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>SHOTS</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>7651.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>STABW</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>328.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>THRETP</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>6398.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>THRETW</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>2411.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>GANG</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>4.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>AREACK</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>27094.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>PREMCK</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>15858.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>SUSP</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>53126.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>SUSPP</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>20138.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>SUSPW</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>2851.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>ANIML</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>2874.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>ANIMLP</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>2686.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>BOMBTH</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>56.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>DIST</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>2681.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>ESCAPE</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>7.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>FWB</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>157.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>FWH</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>122.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>FWI</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>1447.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>CHEM</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>9.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>FWN</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>53.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>NOISE</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>27461.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>PARK</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>7482.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>PARTY</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>2529.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>POLINV</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>476.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>SCHL</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>4682.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>SCHLP</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>2745.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>SCHLW</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>28.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>THRET</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>12027.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>TMET</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>5888.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>TMETP</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>3227.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>TMETW</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>63.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>TRASH</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>1398.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>TRASHP</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>328.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>UNWNT</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>86770.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>FPURS</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>3.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>UNWNTW</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>123.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>W26</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>1487.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>77</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>28.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>ASSIST</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>27137.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>CIVIL</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>11891.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>EVICT</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>23.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>FLAG</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>43.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>FOLLOW</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>13396.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>MSG</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>595.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>PROP</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>12930.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>GREAT</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>3.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>RED</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>17.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>RIVPOL</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>1018.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>SCHLET</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>1.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>SERVE</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>216.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>STNDBY</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>5314.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>SUBSTP</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>62.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>TRANS</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>48.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>WARR</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>3852.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>WELCK</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>47379.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>WARRC</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>24.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>WELCKP</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>53547.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>ASSLT</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>9451.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>DEVICE</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>222.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>ROB</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>907.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>SHOOT</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>36.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>STAB</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>34.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>BURG</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>17020.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>FRAUD</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>4011.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>FRAUDP</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>518.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>THEFT</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>49530.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>IDENT</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>20.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>THEFTC</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>8625.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>THEFTP</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>22616.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>VAND</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>11394.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>VANDP</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>5670.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>VEHST</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>20952.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>ACCHR</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>14188.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>ACCHRP</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>8669.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>ACCINJ</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>12371.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>HOSTGE</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>1.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>ACCNON</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>24868.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>ACCUNK</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>5039.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>DUII</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>3238.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>HAZARD</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>27210.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>TRASTP</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>98.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>WRONG</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>272.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>TPURS</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>8.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>RSTLN</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>4.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>VEHREC</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>6361.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>VEHSTP</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>1338.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>PROWLP</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>1116.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+          <ddi2:CategoryStatistics>
+            <ddi2:CategoryValue>BURGP</ddi2:CategoryValue>
+            <ddi2:CategoryStatistic>
+              <ddi2:CategoryStatisticType>Frequency</ddi2:CategoryStatisticType>
+              <ddi2:Weighted>false</ddi2:Weighted>
+              <ddi2:Value>3555.0</ddi2:Value>
+            </ddi2:CategoryStatistic>
+          </ddi2:CategoryStatistics>
+        </ddi2:VariableStatistics>
+        <ddi2:VariableStatistics>
+          <ddi2:VariableReference>
+            <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0:Variable.bmLBM3x9.1.0.0</ddi3:URN>
+          </ddi2:VariableReference>
+          <ddi2:SummaryStatistic>
+            <ddi2:SummaryStatisticType>ValidCases</ddi2:SummaryStatisticType>
+            <ddi2:Weighted>false</ddi2:Weighted>
+            <ddi2:Value>876265</ddi2:Value>
+          </ddi2:SummaryStatistic>
+          <ddi2:SummaryStatistic>
+            <ddi2:SummaryStatisticType>InvalidCases</ddi2:SummaryStatisticType>
+            <ddi2:Weighted>false</ddi2:Weighted>
+            <ddi2:Value>0</ddi2:Value>
+          </ddi2:SummaryStatistic>
+        </ddi2:VariableStatistics>
+        <ddi2:VariableStatistics>
+          <ddi2:VariableReference>
+            <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0:Variable.kaQ53qCr.1.0.0</ddi3:URN>
+          </ddi2:VariableReference>
+          <ddi2:SummaryStatistic>
+            <ddi2:SummaryStatisticType>ValidCases</ddi2:SummaryStatisticType>
+            <ddi2:Weighted>false</ddi2:Weighted>
+            <ddi2:Value>876265</ddi2:Value>
+          </ddi2:SummaryStatistic>
+          <ddi2:SummaryStatistic>
+            <ddi2:SummaryStatisticType>InvalidCases</ddi2:SummaryStatisticType>
+            <ddi2:Weighted>false</ddi2:Weighted>
+            <ddi2:Value>0</ddi2:Value>
+          </ddi2:SummaryStatistic>
+        </ddi2:VariableStatistics>
+        <ddi2:VariableStatistics>
+          <ddi2:VariableReference>
+            <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0:Variable.GVBK60CS.1.0.0</ddi3:URN>
+          </ddi2:VariableReference>
+          <ddi2:SummaryStatistic>
+            <ddi2:SummaryStatisticType>Mean</ddi2:SummaryStatisticType>
+            <ddi2:Weighted>false</ddi2:Weighted>
+            <ddi2:Value>7657708.604</ddi2:Value>
+          </ddi2:SummaryStatistic>
+          <ddi2:SummaryStatistic>
+            <ddi2:SummaryStatisticType>Min</ddi2:SummaryStatisticType>
+            <ddi2:Weighted>false</ddi2:Weighted>
+            <ddi2:Value>0</ddi2:Value>
+          </ddi2:SummaryStatistic>
+          <ddi2:SummaryStatistic>
+            <ddi2:SummaryStatisticType>Max</ddi2:SummaryStatisticType>
+            <ddi2:Weighted>false</ddi2:Weighted>
+            <ddi2:Value>7762614</ddi2:Value>
+          </ddi2:SummaryStatistic>
+          <ddi2:SummaryStatistic>
+            <ddi2:SummaryStatisticType>StandardDeviation</ddi2:SummaryStatisticType>
+            <ddi2:Weighted>false</ddi2:Weighted>
+            <ddi2:Value>18904.31</ddi2:Value>
+          </ddi2:SummaryStatistic>
+          <ddi2:SummaryStatistic>
+            <ddi2:SummaryStatisticType>ValidCases</ddi2:SummaryStatisticType>
+            <ddi2:Weighted>false</ddi2:Weighted>
+            <ddi2:Value>876265</ddi2:Value>
+          </ddi2:SummaryStatistic>
+          <ddi2:SummaryStatistic>
+            <ddi2:SummaryStatisticType>InvalidCases</ddi2:SummaryStatisticType>
+            <ddi2:Weighted>false</ddi2:Weighted>
+            <ddi2:Value>0</ddi2:Value>
+          </ddi2:SummaryStatistic>
+        </ddi2:VariableStatistics>
+        <ddi2:VariableStatistics>
+          <ddi2:VariableReference>
+            <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0:Variable.hBVecq7b.1.0.0</ddi3:URN>
+          </ddi2:VariableReference>
+          <ddi2:SummaryStatistic>
+            <ddi2:SummaryStatisticType>Mean</ddi2:SummaryStatisticType>
+            <ddi2:Weighted>false</ddi2:Weighted>
+            <ddi2:Value>684500.375</ddi2:Value>
+          </ddi2:SummaryStatistic>
+          <ddi2:SummaryStatistic>
+            <ddi2:SummaryStatisticType>Min</ddi2:SummaryStatisticType>
+            <ddi2:Weighted>false</ddi2:Weighted>
+            <ddi2:Value>0</ddi2:Value>
+          </ddi2:SummaryStatistic>
+          <ddi2:SummaryStatistic>
+            <ddi2:SummaryStatisticType>Max</ddi2:SummaryStatisticType>
+            <ddi2:Weighted>false</ddi2:Weighted>
+            <ddi2:Value>787862</ddi2:Value>
+          </ddi2:SummaryStatistic>
+          <ddi2:SummaryStatistic>
+            <ddi2:SummaryStatisticType>StandardDeviation</ddi2:SummaryStatisticType>
+            <ddi2:Weighted>false</ddi2:Weighted>
+            <ddi2:Value>12411.42</ddi2:Value>
+          </ddi2:SummaryStatistic>
+          <ddi2:SummaryStatistic>
+            <ddi2:SummaryStatisticType>ValidCases</ddi2:SummaryStatisticType>
+            <ddi2:Weighted>false</ddi2:Weighted>
+            <ddi2:Value>876265</ddi2:Value>
+          </ddi2:SummaryStatistic>
+          <ddi2:SummaryStatistic>
+            <ddi2:SummaryStatisticType>InvalidCases</ddi2:SummaryStatisticType>
+            <ddi2:Weighted>false</ddi2:Weighted>
+            <ddi2:Value>0</ddi2:Value>
+          </ddi2:SummaryStatistic>
+        </ddi2:VariableStatistics>
+        <ddi2:VariableStatistics>
+          <ddi2:VariableReference>
+            <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0:Variable.vcY9o1t0.1.0.0</ddi3:URN>
+          </ddi2:VariableReference>
+          <ddi2:SummaryStatistic>
+            <ddi2:SummaryStatisticType>ValidCases</ddi2:SummaryStatisticType>
+            <ddi2:Weighted>false</ddi2:Weighted>
+            <ddi2:Value>876265</ddi2:Value>
+          </ddi2:SummaryStatistic>
+          <ddi2:SummaryStatistic>
+            <ddi2:SummaryStatisticType>InvalidCases</ddi2:SummaryStatisticType>
+            <ddi2:Weighted>false</ddi2:Weighted>
+            <ddi2:Value>0</ddi2:Value>
+          </ddi2:SummaryStatistic>
+        </ddi2:VariableStatistics>
+      </ddi2:Statistics>
+    </ddi2:PhysicalInstance>
+    <ddi2:PhysicalInstance agency="us.mtna" version="1.0.0" xml:lang="en" id="nF2YNEZqtC7MhkMA" urn="urn:ddi:us.mtna:PhysicalInstance.nF2YNEZqtC7MhkMA.1.0.0" xmlns:ddi2="ddi:physicalinstance:3_1">
+      <ddi2:RecordLayoutReference>
+        <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:RecordLayoutScheme.kgXYuDDLFfJC7PBD.1.0.0:ProprietaryRecordLayout.WKV7zpau.1.0.0</ddi3:URN>
+      </ddi2:RecordLayoutReference>
+      <ddi2:DataFileIdentification id="le3QN7oD" urn="urn:ddi:us.mtna:PhysicalInstance.nF2YNEZqtC7MhkMA.1.0.0:DataFileIdentification.le3QN7oD.1.0.0">
+        <ddi2:URI>NIJ_CFS_PORTLAND</ddi2:URI>
+      </ddi2:DataFileIdentification>
+      <ddi2:GrossFileStructure id="OPVshUH4" urn="urn:ddi:us.mtna:PhysicalInstance.nF2YNEZqtC7MhkMA.1.0.0:GrossFileStructure.OPVshUH4.1.0.0">
+        <ddi2:CreationSoftware id="JiY4mSfo" urn="urn:ddi:us.mtna:PhysicalInstance.nF2YNEZqtC7MhkMA.1.0.0:CreationSoftware.JiY4mSfo.1.0.0">
+          <ddi3:Name xmlns:ddi3="ddi:reusable:3_1">SledgeHammer</ddi3:Name>
+          <ddi3:Description xmlns:ddi3="ddi:reusable:3_1">A data file based off the DDI Codebook 2.5 file metasheet.cfs_dbf.ddi.xml.</ddi3:Description>
+        </ddi2:CreationSoftware>
+        <ddi2:CaseQuantity>876265</ddi2:CaseQuantity>
+      </ddi2:GrossFileStructure>
+      <ddi2:Statistics>
+        <ddi2:StatisticalDataFileReference isInline="true">
+          <ddi2:DataFileReference>
+            <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:PhysicalInstance.Pv3bqtYziYqTEZDL.1.0.0</ddi3:URN>
+          </ddi2:DataFileReference>
+        </ddi2:StatisticalDataFileReference>
+      </ddi2:Statistics>
+    </ddi2:PhysicalInstance>
+    <ddi2:CategoryScheme agency="us.mtna" version="1.0.0" xml:lang="en" id="mPh9HDYhLqp7nRbH" urn="urn:ddi:us.mtna:CategoryScheme.mPh9HDYhLqp7nRbH.1.0.0" xmlns:ddi2="ddi:logicalproduct:3_1">
+      <ddi2:CategorySchemeName>category</ddi2:CategorySchemeName>
+      <ddi2:Category id="Y0vl3luC" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.mPh9HDYhLqp7nRbH.1.0.0:Category.Y0vl3luC.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">STREET CRIMES</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="oCw0rmbc" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.mPh9HDYhLqp7nRbH.1.0.0:Category.oCw0rmbc.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">OTHER</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="g2uCGLnX" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.mPh9HDYhLqp7nRbH.1.0.0:Category.g2uCGLnX.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">MOTOR VEHICLE THEFT</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="Ius5xIe6" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.mPh9HDYhLqp7nRbH.1.0.0:Category.Ius5xIe6.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">BURGLARY</ddi3:Label>
+      </ddi2:Category>
+    </ddi2:CategoryScheme>
+    <ddi2:CategoryScheme agency="us.mtna" version="1.0.0" xml:lang="en" id="wU0fCbSzQfcih8Cw" urn="urn:ddi:us.mtna:CategoryScheme.wU0fCbSzQfcih8Cw.1.0.0" xmlns:ddi2="ddi:logicalproduct:3_1">
+      <ddi2:CategorySchemeName>call_group</ddi2:CategorySchemeName>
+      <ddi2:Category id="ilNDg4tT" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wU0fCbSzQfcih8Cw.1.0.0:Category.ilNDg4tT.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">DISORDER</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="f35BJT57" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wU0fCbSzQfcih8Cw.1.0.0:Category.f35BJT57.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">PERSON CRIME</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="HyQ524qW" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wU0fCbSzQfcih8Cw.1.0.0:Category.HyQ524qW.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">SUSPICIOUS</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="olpihKMH" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wU0fCbSzQfcih8Cw.1.0.0:Category.olpihKMH.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">NON CRIMINAL/ADMIN</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="QtJAhvoz" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wU0fCbSzQfcih8Cw.1.0.0:Category.QtJAhvoz.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">PROPERTY CRIME</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="QJjPzYJ2" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wU0fCbSzQfcih8Cw.1.0.0:Category.QJjPzYJ2.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">TRAFFIC</ddi3:Label>
+      </ddi2:Category>
+    </ddi2:CategoryScheme>
+    <ddi2:CategoryScheme agency="us.mtna" version="1.0.0" xml:lang="en" id="wvzkHQ634iMCvqV8" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0" xmlns:ddi2="ddi:logicalproduct:3_1">
+      <ddi2:CategorySchemeName>final_case_type</ddi2:CategorySchemeName>
+      <ddi2:Category id="eAKX97nP" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.eAKX97nP.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">DISTP</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="jcgUoyBk" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.jcgUoyBk.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">DISTW</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="o7YFp0Q1" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.o7YFp0Q1.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">VICE</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="wRWvFfuI" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.wRWvFfuI.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">ASSLTP</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="cWXo4WR6" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.cWXo4WR6.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">ASSLTW</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="uBQQDgR7" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.uBQQDgR7.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">ROBP</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="kPEtogrK" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.kPEtogrK.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">ROBW</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="MnOmuVo3" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.MnOmuVo3.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">SHOOTW</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="pxHaJMDL" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.pxHaJMDL.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">SHOTS</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="FC5OYpcT" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.FC5OYpcT.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">STABW</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="tvBhlyj7" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.tvBhlyj7.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">THRETP</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="LEQMdhEF" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.LEQMdhEF.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">THRETW</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="tAq6VHnR" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.tAq6VHnR.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">GANG</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="apbc5J9p" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.apbc5J9p.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">AREACK</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="PAfcq4vh" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.PAfcq4vh.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">PREMCK</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="IeBphA8t" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.IeBphA8t.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">SUSP</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="LbxDJHxc" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.LbxDJHxc.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">SUSPP</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="FFkLERiX" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.FFkLERiX.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">SUSPW</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="iWwhGTGw" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.iWwhGTGw.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">ANIML</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="mti5dM7D" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.mti5dM7D.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">ANIMLP</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="giXbmJiH" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.giXbmJiH.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">BOMBTH</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="LlysnocP" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.LlysnocP.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">DIST</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="KaFmBsQz" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.KaFmBsQz.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">ESCAPE</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="w5LgmApa" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.w5LgmApa.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">FWB</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="OTTOTSRp" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.OTTOTSRp.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">FWH</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="RuvdGgfq" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.RuvdGgfq.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">FWI</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="GYJqCr2L" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.GYJqCr2L.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">CHEM</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="uhR46a3o" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.uhR46a3o.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">FWN</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="xg8XS1JI" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.xg8XS1JI.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">NOISE</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="kZJUITgm" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.kZJUITgm.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">PARK</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="v317ELED" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.v317ELED.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">PARTY</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="wIzCWQhV" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.wIzCWQhV.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">POLINV</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="v61Tocgl" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.v61Tocgl.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">SCHL</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="EMAbozm7" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.EMAbozm7.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">SCHLP</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="qEE5cyhR" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.qEE5cyhR.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">SCHLW</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="cHjAkTCg" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.cHjAkTCg.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">THRET</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="LttQtnOp" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.LttQtnOp.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">TMET</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="j4Zfxp3X" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.j4Zfxp3X.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">TMETP</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="LwBhgerU" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.LwBhgerU.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">TMETW</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="sQbbdY7t" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.sQbbdY7t.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">TRASH</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="IFn8vb5t" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.IFn8vb5t.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">TRASHP</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="A8GpsESX" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.A8GpsESX.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">UNWNT</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="BNDAHGUJ" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.BNDAHGUJ.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">FPURS</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="La12V6fH" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.La12V6fH.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">UNWNTW</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="DZlZ9KKa" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.DZlZ9KKa.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">W26</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="ZE5ciWc5" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.ZE5ciWc5.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">77</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="z8vZVZGs" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.z8vZVZGs.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">ASSIST</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="sFS14y3B" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.sFS14y3B.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">CIVIL</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="qlePKOc7" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.qlePKOc7.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">EVICT</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="l8vgnzLp" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.l8vgnzLp.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">FLAG</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="dxaqDPNU" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.dxaqDPNU.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">FOLLOW</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="iouVGWIV" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.iouVGWIV.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">MSG</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="evGye0n5" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.evGye0n5.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">PROP</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="UosTxtlo" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.UosTxtlo.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">GREAT</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="M2WscQjV" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.M2WscQjV.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">RED</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="pcT8fpaZ" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.pcT8fpaZ.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">RIVPOL</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="eMHQtFws" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.eMHQtFws.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">SCHLET</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="QKK4sAt7" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.QKK4sAt7.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">SERVE</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="UCROW3BJ" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.UCROW3BJ.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">STNDBY</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="GH24alFd" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.GH24alFd.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">SUBSTP</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="Xrvt95FU" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.Xrvt95FU.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">TRANS</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="j5Y0fLOi" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.j5Y0fLOi.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">WARR</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="Od1NH1kr" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.Od1NH1kr.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">WELCK</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="SroKPs18" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.SroKPs18.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">WARRC</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="qy0g0Oaa" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.qy0g0Oaa.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">WELCKP</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="iNcant0h" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.iNcant0h.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">ASSLT</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="rdT9kMVk" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.rdT9kMVk.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">DEVICE</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="wloYtLwr" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.wloYtLwr.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">ROB</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="xRAjvIKa" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.xRAjvIKa.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">SHOOT</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="LYcHiZfQ" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.LYcHiZfQ.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">STAB</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="bXgqJAZ0" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.bXgqJAZ0.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">BURG</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="h7G5oIPc" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.h7G5oIPc.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">FRAUD</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="waNDScBq" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.waNDScBq.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">FRAUDP</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="EF2Q5PJU" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.EF2Q5PJU.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">THEFT</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="lJprwZyn" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.lJprwZyn.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">IDENT</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="hcmA5FTL" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.hcmA5FTL.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">THEFTC</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="zSGOBUBV" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.zSGOBUBV.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">THEFTP</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="JqKtq4Rk" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.JqKtq4Rk.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">VAND</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="k87RoQBi" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.k87RoQBi.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">VANDP</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="hyk3brPu" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.hyk3brPu.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">VEHST</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="glL5n2qU" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.glL5n2qU.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">ACCHR</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="iXLLemUB" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.iXLLemUB.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">ACCHRP</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="HTJeyxN8" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.HTJeyxN8.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">ACCINJ</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="vfO31u33" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.vfO31u33.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">HOSTGE</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="xQbsF4MC" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.xQbsF4MC.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">ACCNON</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="TpSKKTtJ" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.TpSKKTtJ.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">ACCUNK</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="tJZK2beC" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.tJZK2beC.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">DUII</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="rO0igYvh" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.rO0igYvh.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">HAZARD</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="a3geA5fU" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.a3geA5fU.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">TRASTP</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="Z4igB0Uz" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.Z4igB0Uz.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">WRONG</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="kahEwZVF" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.kahEwZVF.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">TPURS</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="qANbt190" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.qANbt190.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">RSTLN</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="xZ79aDHP" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.xZ79aDHP.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">VEHREC</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="C9SZ53Bk" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.C9SZ53Bk.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">VEHSTP</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="XbUovtzw" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.XbUovtzw.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">PROWLP</ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category id="Y0zCUKuL" version="1.0.0" urn="urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.Y0zCUKuL.1.0.0">
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">BURGP</ddi3:Label>
+      </ddi2:Category>
+    </ddi2:CategoryScheme>
+    <ddi2:CodeScheme agency="us.mtna" version="1.0.0" xml:lang="en" id="pfFRdT8NnMAX7O0V" urn="urn:ddi:us.mtna:CodeScheme.pfFRdT8NnMAX7O0V.1.0.0" xmlns:ddi2="ddi:logicalproduct:3_1">
+      <ddi2:CodeSchemeName>category</ddi2:CodeSchemeName>
+      <ddi2:CategorySchemeReference>
+        <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.mPh9HDYhLqp7nRbH.1.0.0</ddi3:URN>
+      </ddi2:CategorySchemeReference>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.mPh9HDYhLqp7nRbH.1.0.0:Category.Y0vl3luC.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>STC</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.mPh9HDYhLqp7nRbH.1.0.0:Category.oCw0rmbc.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>OTH</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.mPh9HDYhLqp7nRbH.1.0.0:Category.g2uCGLnX.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>MVT</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.mPh9HDYhLqp7nRbH.1.0.0:Category.Ius5xIe6.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>BUR</ddi2:Value>
+      </ddi2:Code>
+    </ddi2:CodeScheme>
+    <ddi2:CodeScheme agency="us.mtna" version="1.0.0" xml:lang="en" id="V5Q7F28Dq5AiWB3u" urn="urn:ddi:us.mtna:CodeScheme.V5Q7F28Dq5AiWB3u.1.0.0" xmlns:ddi2="ddi:logicalproduct:3_1">
+      <ddi2:CodeSchemeName>call_group</ddi2:CodeSchemeName>
+      <ddi2:CategorySchemeReference>
+        <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wU0fCbSzQfcih8Cw.1.0.0</ddi3:URN>
+      </ddi2:CategorySchemeReference>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wU0fCbSzQfcih8Cw.1.0.0:Category.ilNDg4tT.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>DISORDER</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wU0fCbSzQfcih8Cw.1.0.0:Category.f35BJT57.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>PERSON CRIME</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wU0fCbSzQfcih8Cw.1.0.0:Category.HyQ524qW.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>SUSPICIOUS</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wU0fCbSzQfcih8Cw.1.0.0:Category.olpihKMH.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>NON CRIMINAL/ADMIN</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wU0fCbSzQfcih8Cw.1.0.0:Category.QtJAhvoz.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>PROPERTY CRIME</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wU0fCbSzQfcih8Cw.1.0.0:Category.QJjPzYJ2.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>TRAFFIC</ddi2:Value>
+      </ddi2:Code>
+    </ddi2:CodeScheme>
+    <ddi2:CodeScheme agency="us.mtna" version="1.0.0" xml:lang="en" id="akspI6WDb4tEVY8J" urn="urn:ddi:us.mtna:CodeScheme.akspI6WDb4tEVY8J.1.0.0" xmlns:ddi2="ddi:logicalproduct:3_1">
+      <ddi2:CodeSchemeName>final_case_type</ddi2:CodeSchemeName>
+      <ddi2:CategorySchemeReference>
+        <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0</ddi3:URN>
+      </ddi2:CategorySchemeReference>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.eAKX97nP.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>DISTP</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.jcgUoyBk.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>DISTW</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.o7YFp0Q1.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>VICE</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.wRWvFfuI.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>ASSLTP</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.cWXo4WR6.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>ASSLTW</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.uBQQDgR7.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>ROBP</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.kPEtogrK.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>ROBW</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.MnOmuVo3.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>SHOOTW</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.pxHaJMDL.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>SHOTS</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.FC5OYpcT.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>STABW</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.tvBhlyj7.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>THRETP</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.LEQMdhEF.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>THRETW</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.tAq6VHnR.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>GANG</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.apbc5J9p.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>AREACK</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.PAfcq4vh.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>PREMCK</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.IeBphA8t.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>SUSP</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.LbxDJHxc.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>SUSPP</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.FFkLERiX.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>SUSPW</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.iWwhGTGw.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>ANIML</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.mti5dM7D.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>ANIMLP</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.giXbmJiH.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>BOMBTH</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.LlysnocP.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>DIST</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.KaFmBsQz.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>ESCAPE</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.w5LgmApa.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>FWB</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.OTTOTSRp.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>FWH</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.RuvdGgfq.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>FWI</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.GYJqCr2L.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>CHEM</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.uhR46a3o.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>FWN</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.xg8XS1JI.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>NOISE</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.kZJUITgm.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>PARK</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.v317ELED.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>PARTY</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.wIzCWQhV.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>POLINV</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.v61Tocgl.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>SCHL</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.EMAbozm7.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>SCHLP</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.qEE5cyhR.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>SCHLW</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.cHjAkTCg.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>THRET</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.LttQtnOp.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>TMET</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.j4Zfxp3X.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>TMETP</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.LwBhgerU.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>TMETW</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.sQbbdY7t.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>TRASH</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.IFn8vb5t.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>TRASHP</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.A8GpsESX.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>UNWNT</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.BNDAHGUJ.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>FPURS</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.La12V6fH.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>UNWNTW</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.DZlZ9KKa.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>W26</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.ZE5ciWc5.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>77</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.z8vZVZGs.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>ASSIST</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.sFS14y3B.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>CIVIL</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.qlePKOc7.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>EVICT</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.l8vgnzLp.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>FLAG</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.dxaqDPNU.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>FOLLOW</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.iouVGWIV.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>MSG</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.evGye0n5.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>PROP</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.UosTxtlo.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>GREAT</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.M2WscQjV.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>RED</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.pcT8fpaZ.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>RIVPOL</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.eMHQtFws.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>SCHLET</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.QKK4sAt7.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>SERVE</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.UCROW3BJ.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>STNDBY</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.GH24alFd.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>SUBSTP</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.Xrvt95FU.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>TRANS</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.j5Y0fLOi.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>WARR</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.Od1NH1kr.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>WELCK</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.SroKPs18.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>WARRC</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.qy0g0Oaa.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>WELCKP</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.iNcant0h.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>ASSLT</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.rdT9kMVk.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>DEVICE</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.wloYtLwr.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>ROB</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.xRAjvIKa.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>SHOOT</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.LYcHiZfQ.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>STAB</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.bXgqJAZ0.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>BURG</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.h7G5oIPc.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>FRAUD</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.waNDScBq.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>FRAUDP</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.EF2Q5PJU.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>THEFT</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.lJprwZyn.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>IDENT</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.hcmA5FTL.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>THEFTC</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.zSGOBUBV.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>THEFTP</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.JqKtq4Rk.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>VAND</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.k87RoQBi.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>VANDP</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.hyk3brPu.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>VEHST</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.glL5n2qU.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>ACCHR</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.iXLLemUB.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>ACCHRP</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.HTJeyxN8.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>ACCINJ</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.vfO31u33.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>HOSTGE</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.xQbsF4MC.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>ACCNON</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.TpSKKTtJ.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>ACCUNK</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.tJZK2beC.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>DUII</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.rO0igYvh.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>HAZARD</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.a3geA5fU.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>TRASTP</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.Z4igB0Uz.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>WRONG</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.kahEwZVF.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>TPURS</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.qANbt190.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>RSTLN</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.xZ79aDHP.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>VEHREC</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.C9SZ53Bk.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>VEHSTP</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.XbUovtzw.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>PROWLP</ddi2:Value>
+      </ddi2:Code>
+      <ddi2:Code>
+        <ddi2:CategoryReference>
+          <ddi3:URN xmlns:ddi3="ddi:reusable:3_1">urn:ddi:us.mtna:CategoryScheme.wvzkHQ634iMCvqV8.1.0.0:Category.Y0zCUKuL.1.0.0</ddi3:URN>
+        </ddi2:CategoryReference>
+        <ddi2:Value>BURGP</ddi2:Value>
+      </ddi2:Code>
+    </ddi2:CodeScheme>
+    <ddi2:VariableScheme agency="us.mtna" version="1.0.0" xml:lang="en" id="rcDxPw7akp40pMNF" urn="urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0" xmlns:ddi2="ddi:logicalproduct:3_1">
+      <ddi2:VariableSchemeName>NIJ_CFS_PORTLAND</ddi2:VariableSchemeName>
+      <ddi2:Variable id="NMpmdprz" version="1.0.0" urn="urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0:Variable.NMpmdprz.1.0.0">
+        <ddi2:VariableName>category</ddi2:VariableName>
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">Category</ddi3:Label>
+        <ddi2:Representation>
+          <ddi2:CodeRepresentation>
+            <ddi3:RecommendedDataType xmlns:ddi3="ddi:reusable:3_1">Text</ddi3:RecommendedDataType>
+            <ddi3:CodeSchemeReference xmlns:ddi3="ddi:reusable:3_1">
+              <ddi3:URN>urn:ddi:us.mtna:CodeScheme.pfFRdT8NnMAX7O0V.1.0.0</ddi3:URN>
+            </ddi3:CodeSchemeReference>
+          </ddi2:CodeRepresentation>
+        </ddi2:Representation>
+      </ddi2:Variable>
+      <ddi2:Variable id="IYVbzAfS" version="1.0.0" urn="urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0:Variable.IYVbzAfS.1.0.0">
+        <ddi2:VariableName>call_group</ddi2:VariableName>
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">Call group</ddi3:Label>
+        <ddi2:Representation>
+          <ddi2:CodeRepresentation>
+            <ddi3:RecommendedDataType xmlns:ddi3="ddi:reusable:3_1">Text</ddi3:RecommendedDataType>
+            <ddi3:CodeSchemeReference xmlns:ddi3="ddi:reusable:3_1">
+              <ddi3:URN>urn:ddi:us.mtna:CodeScheme.V5Q7F28Dq5AiWB3u.1.0.0</ddi3:URN>
+            </ddi3:CodeSchemeReference>
+          </ddi2:CodeRepresentation>
+        </ddi2:Representation>
+      </ddi2:Variable>
+      <ddi2:Variable id="z2DnmCrt" version="1.0.0" urn="urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0:Variable.z2DnmCrt.1.0.0">
+        <ddi2:VariableName>final_case_type</ddi2:VariableName>
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">Final case type</ddi3:Label>
+        <ddi2:Representation>
+          <ddi2:CodeRepresentation>
+            <ddi3:RecommendedDataType xmlns:ddi3="ddi:reusable:3_1">Text</ddi3:RecommendedDataType>
+            <ddi3:CodeSchemeReference xmlns:ddi3="ddi:reusable:3_1">
+              <ddi3:URN>urn:ddi:us.mtna:CodeScheme.akspI6WDb4tEVY8J.1.0.0</ddi3:URN>
+            </ddi3:CodeSchemeReference>
+          </ddi2:CodeRepresentation>
+        </ddi2:Representation>
+      </ddi2:Variable>
+      <ddi2:Variable id="bmLBM3x9" version="1.0.0" urn="urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0:Variable.bmLBM3x9.1.0.0">
+        <ddi2:VariableName>case_desc</ddi2:VariableName>
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">Case description</ddi3:Label>
+        <ddi2:Representation>
+          <ddi2:TextRepresentation>
+            <ddi3:RecommendedDataType xmlns:ddi3="ddi:reusable:3_1">Text</ddi3:RecommendedDataType>
+          </ddi2:TextRepresentation>
+        </ddi2:Representation>
+      </ddi2:Variable>
+      <ddi2:Variable id="kaQ53qCr" version="1.0.0" urn="urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0:Variable.kaQ53qCr.1.0.0">
+        <ddi2:VariableName>occ_date</ddi2:VariableName>
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">Occurrence date</ddi3:Label>
+        <ddi2:Representation>
+          <ddi2:TextRepresentation>
+            <ddi3:RecommendedDataType xmlns:ddi3="ddi:reusable:3_1">Text</ddi3:RecommendedDataType>
+          </ddi2:TextRepresentation>
+        </ddi2:Representation>
+      </ddi2:Variable>
+      <ddi2:Variable id="GVBK60CS" version="1.0.0" urn="urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0:Variable.GVBK60CS.1.0.0">
+        <ddi2:VariableName>x_coordinate</ddi2:VariableName>
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">X coordinate</ddi3:Label>
+        <ddi2:Representation>
+          <ddi2:NumericRepresentation type="Double">
+            <ddi3:RecommendedDataType xmlns:ddi3="ddi:reusable:3_1">Numeric</ddi3:RecommendedDataType>
+          </ddi2:NumericRepresentation>
+        </ddi2:Representation>
+      </ddi2:Variable>
+      <ddi2:Variable id="hBVecq7b" version="1.0.0" urn="urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0:Variable.hBVecq7b.1.0.0">
+        <ddi2:VariableName>y_coordinate</ddi2:VariableName>
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">Y coordinate</ddi3:Label>
+        <ddi2:Representation>
+          <ddi2:NumericRepresentation type="Double">
+            <ddi3:RecommendedDataType xmlns:ddi3="ddi:reusable:3_1">Numeric</ddi3:RecommendedDataType>
+          </ddi2:NumericRepresentation>
+        </ddi2:Representation>
+      </ddi2:Variable>
+      <ddi2:Variable id="vcY9o1t0" version="1.0.0" urn="urn:ddi:us.mtna:VariableScheme.rcDxPw7akp40pMNF.1.0.0:Variable.vcY9o1t0.1.0.0">
+        <ddi2:VariableName>census_tract</ddi2:VariableName>
+        <ddi3:Label xml:lang="en" xmlns:ddi3="ddi:reusable:3_1">Census tract</ddi3:Label>
+        <ddi2:Representation>
+          <ddi2:TextRepresentation>
+            <ddi3:RecommendedDataType xmlns:ddi3="ddi:reusable:3_1">Text</ddi3:RecommendedDataType>
+          </ddi2:TextRepresentation>
+        </ddi2:Representation>
+      </ddi2:Variable>
+    </ddi2:VariableScheme>
+  </ddi1:ResourcePackage>
+</ddi:DDIInstance>

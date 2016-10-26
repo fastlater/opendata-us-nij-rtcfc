@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file was produced automatically by the OpenDataForge
+ Codebook XML Generator v2016.10.26                       
+                                                          
+ For more information on our products or services visit	 
+ http://www.mtna.us.-->
+<ddi:codeBook version="2.1" ID="DcmyMFwGd7GP0QG3" xmlns:ddi="http://www.icpsr.umich.edu/DDI">
+  <ddi:docDscr>
+    <ddi:citation>
+      <ddi:titlStmt>
+        <ddi:titl>NIJ_CFS_PORTLAND</ddi:titl>
+      </ddi:titlStmt>
+      <ddi:prodStmt>
+        <ddi:prodDate date="2016-10-26 10:44:39">2016-10-26 10:44:39</ddi:prodDate>
+        <ddi:software version=""/>
+      </ddi:prodStmt>
+    </ddi:citation>
+  </ddi:docDscr>
+  <ddi:stdyDscr>
+    <ddi:citation>
+      <ddi:titlStmt>
+        <ddi:titl>NIJ_CFS_PORTLAND</ddi:titl>
+      </ddi:titlStmt>
+      <ddi:prodStmt/>
+    </ddi:citation>
+  </ddi:stdyDscr>
+  <ddi:fileDscr ID="npJ2jvn4BPp7PWyd">
+    <ddi:fileTxt>
+      <ddi:fileName>NIJ_CFS_PORTLAND</ddi:fileName>
+      <ddi:dimensns>
+        <ddi:caseQnty>876265</ddi:caseQnty>
+        <ddi:varQnty>8</ddi:varQnty>
+      </ddi:dimensns>
+      <ddi:fileType>DDI Codebook</ddi:fileType>
+    </ddi:fileTxt>
+  </ddi:fileDscr>
+  <ddi:dataDscr>
+    <ddi:var ID="czA9drl1ALIOCwyj" name="category" files="npJ2jvn4BPp7PWyd" dcml="0">
+      <ddi:location width="19" StartPos="1" EndPos="19"/>
+      <ddi:labl xml-lang="en">Category</ddi:labl>
+      <ddi:sumStat wgtd="not-wgtd" type="vald">876265</ddi:sumStat>
+      <ddi:sumStat wgtd="not-wgtd" type="invd">0</ddi:sumStat>
+      <ddi:catgry>
+        <ddi:catValu>STC</ddi:catValu>
+        <ddi:labl xml-lang="en">STREET CRIMES</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">0</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>OTH</ddi:catValu>
+        <ddi:labl xml-lang="en">OTHER</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">0</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>MVT</ddi:catValu>
+        <ddi:labl xml-lang="en">MOTOR VEHICLE THEFT</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">0</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>BUR</ddi:catValu>
+        <ddi:labl xml-lang="en">BURGLARY</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">0</ddi:catStat>
+      </ddi:catgry>
+      <ddi:varFormat type="character" schema="other" formatname=""/>
+    </ddi:var>
+    <ddi:var ID="e6Tziv5Bo7oxRpuB" name="call_group" files="npJ2jvn4BPp7PWyd" dcml="0">
+      <ddi:location width="18" StartPos="20" EndPos="37"/>
+      <ddi:labl xml-lang="en">Call group</ddi:labl>
+      <ddi:sumStat wgtd="not-wgtd" type="vald">876265</ddi:sumStat>
+      <ddi:sumStat wgtd="not-wgtd" type="invd">0</ddi:sumStat>
+      <ddi:catgry>
+        <ddi:catValu>DISORDER</ddi:catValu>
+        <ddi:labl xml-lang="en">DISORDER</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">285122</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>PERSON CRIME</ddi:catValu>
+        <ddi:labl xml-lang="en">PERSON CRIME</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">45853</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>SUSPICIOUS</ddi:catValu>
+        <ddi:labl xml-lang="en">SUSPICIOUS</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">120183</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>NON CRIMINAL/ADMIN</ddi:catValu>
+        <ddi:labl xml-lang="en">NON CRIMINAL/ADMIN</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">177531</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>PROPERTY CRIME</ddi:catValu>
+        <ddi:labl xml-lang="en">PROPERTY CRIME</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">151614</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>TRAFFIC</ddi:catValu>
+        <ddi:labl xml-lang="en">TRAFFIC</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">95961</ddi:catStat>
+      </ddi:catgry>
+      <ddi:varFormat type="character" schema="other" formatname=""/>
+    </ddi:var>
+    <ddi:var ID="Jf9RvG3cJYbHUfp5" name="final_case_type" files="npJ2jvn4BPp7PWyd" dcml="0">
+      <ddi:location width="6" StartPos="38" EndPos="43"/>
+      <ddi:labl xml-lang="en">Final case type</ddi:labl>
+      <ddi:sumStat wgtd="not-wgtd" type="vald">876265</ddi:sumStat>
+      <ddi:sumStat wgtd="not-wgtd" type="invd">0</ddi:sumStat>
+      <ddi:catgry>
+        <ddi:catValu>DISTP</ddi:catValu>
+        <ddi:labl xml-lang="en">DISTP</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">94003</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>DISTW</ddi:catValu>
+        <ddi:labl xml-lang="en">DISTW</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">2878</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>VICE</ddi:catValu>
+        <ddi:labl xml-lang="en">VICE</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">13871</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>ASSLTP</ddi:catValu>
+        <ddi:labl xml-lang="en">ASSLTP</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">14658</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>ASSLTW</ddi:catValu>
+        <ddi:labl xml-lang="en">ASSLTW</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">677</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>ROBP</ddi:catValu>
+        <ddi:labl xml-lang="en">ROBP</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">1808</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>ROBW</ddi:catValu>
+        <ddi:labl xml-lang="en">ROBW</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">1036</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>SHOOTW</ddi:catValu>
+        <ddi:labl xml-lang="en">SHOOTW</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">234</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>SHOTS</ddi:catValu>
+        <ddi:labl xml-lang="en">SHOTS</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">7651</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>STABW</ddi:catValu>
+        <ddi:labl xml-lang="en">STABW</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">328</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>THRETP</ddi:catValu>
+        <ddi:labl xml-lang="en">THRETP</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">6398</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>THRETW</ddi:catValu>
+        <ddi:labl xml-lang="en">THRETW</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">2411</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>GANG</ddi:catValu>
+        <ddi:labl xml-lang="en">GANG</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">4</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>AREACK</ddi:catValu>
+        <ddi:labl xml-lang="en">AREACK</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">27094</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>PREMCK</ddi:catValu>
+        <ddi:labl xml-lang="en">PREMCK</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">15858</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>SUSP</ddi:catValu>
+        <ddi:labl xml-lang="en">SUSP</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">53126</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>SUSPP</ddi:catValu>
+        <ddi:labl xml-lang="en">SUSPP</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">20138</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>SUSPW</ddi:catValu>
+        <ddi:labl xml-lang="en">SUSPW</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">2851</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>ANIML</ddi:catValu>
+        <ddi:labl xml-lang="en">ANIML</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">2874</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>ANIMLP</ddi:catValu>
+        <ddi:labl xml-lang="en">ANIMLP</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">2686</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>BOMBTH</ddi:catValu>
+        <ddi:labl xml-lang="en">BOMBTH</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">56</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>DIST</ddi:catValu>
+        <ddi:labl xml-lang="en">DIST</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">2681</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>ESCAPE</ddi:catValu>
+        <ddi:labl xml-lang="en">ESCAPE</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">7</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>FWB</ddi:catValu>
+        <ddi:labl xml-lang="en">FWB</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">157</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>FWH</ddi:catValu>
+        <ddi:labl xml-lang="en">FWH</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">122</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>FWI</ddi:catValu>
+        <ddi:labl xml-lang="en">FWI</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">1447</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>CHEM</ddi:catValu>
+        <ddi:labl xml-lang="en">CHEM</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">9</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>FWN</ddi:catValu>
+        <ddi:labl xml-lang="en">FWN</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">53</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>NOISE</ddi:catValu>
+        <ddi:labl xml-lang="en">NOISE</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">27461</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>PARK</ddi:catValu>
+        <ddi:labl xml-lang="en">PARK</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">7482</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>PARTY</ddi:catValu>
+        <ddi:labl xml-lang="en">PARTY</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">2529</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>POLINV</ddi:catValu>
+        <ddi:labl xml-lang="en">POLINV</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">476</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>SCHL</ddi:catValu>
+        <ddi:labl xml-lang="en">SCHL</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">4682</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>SCHLP</ddi:catValu>
+        <ddi:labl xml-lang="en">SCHLP</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">2745</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>SCHLW</ddi:catValu>
+        <ddi:labl xml-lang="en">SCHLW</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">28</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>THRET</ddi:catValu>
+        <ddi:labl xml-lang="en">THRET</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">12027</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>TMET</ddi:catValu>
+        <ddi:labl xml-lang="en">TMET</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">5888</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>TMETP</ddi:catValu>
+        <ddi:labl xml-lang="en">TMETP</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">3227</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>TMETW</ddi:catValu>
+        <ddi:labl xml-lang="en">TMETW</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">63</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>TRASH</ddi:catValu>
+        <ddi:labl xml-lang="en">TRASH</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">1398</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>TRASHP</ddi:catValu>
+        <ddi:labl xml-lang="en">TRASHP</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">328</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>UNWNT</ddi:catValu>
+        <ddi:labl xml-lang="en">UNWNT</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">86770</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>FPURS</ddi:catValu>
+        <ddi:labl xml-lang="en">FPURS</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">3</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>UNWNTW</ddi:catValu>
+        <ddi:labl xml-lang="en">UNWNTW</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">123</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>W26</ddi:catValu>
+        <ddi:labl xml-lang="en">W26</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">1487</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>77</ddi:catValu>
+        <ddi:labl xml-lang="en">77</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">28</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>ASSIST</ddi:catValu>
+        <ddi:labl xml-lang="en">ASSIST</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">27137</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>CIVIL</ddi:catValu>
+        <ddi:labl xml-lang="en">CIVIL</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">11891</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>EVICT</ddi:catValu>
+        <ddi:labl xml-lang="en">EVICT</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">23</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>FLAG</ddi:catValu>
+        <ddi:labl xml-lang="en">FLAG</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">43</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>FOLLOW</ddi:catValu>
+        <ddi:labl xml-lang="en">FOLLOW</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">13396</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>MSG</ddi:catValu>
+        <ddi:labl xml-lang="en">MSG</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">595</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>PROP</ddi:catValu>
+        <ddi:labl xml-lang="en">PROP</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">12930</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>GREAT</ddi:catValu>
+        <ddi:labl xml-lang="en">GREAT</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">3</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>RED</ddi:catValu>
+        <ddi:labl xml-lang="en">RED</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">17</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>RIVPOL</ddi:catValu>
+        <ddi:labl xml-lang="en">RIVPOL</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">1018</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>SCHLET</ddi:catValu>
+        <ddi:labl xml-lang="en">SCHLET</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">1</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>SERVE</ddi:catValu>
+        <ddi:labl xml-lang="en">SERVE</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">216</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>STNDBY</ddi:catValu>
+        <ddi:labl xml-lang="en">STNDBY</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">5314</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>SUBSTP</ddi:catValu>
+        <ddi:labl xml-lang="en">SUBSTP</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">62</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>TRANS</ddi:catValu>
+        <ddi:labl xml-lang="en">TRANS</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">48</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>WARR</ddi:catValu>
+        <ddi:labl xml-lang="en">WARR</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">3852</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>WELCK</ddi:catValu>
+        <ddi:labl xml-lang="en">WELCK</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">47379</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>WARRC</ddi:catValu>
+        <ddi:labl xml-lang="en">WARRC</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">24</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>WELCKP</ddi:catValu>
+        <ddi:labl xml-lang="en">WELCKP</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">53547</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>ASSLT</ddi:catValu>
+        <ddi:labl xml-lang="en">ASSLT</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">9451</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>DEVICE</ddi:catValu>
+        <ddi:labl xml-lang="en">DEVICE</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">222</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>ROB</ddi:catValu>
+        <ddi:labl xml-lang="en">ROB</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">907</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>SHOOT</ddi:catValu>
+        <ddi:labl xml-lang="en">SHOOT</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">36</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>STAB</ddi:catValu>
+        <ddi:labl xml-lang="en">STAB</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">34</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>BURG</ddi:catValu>
+        <ddi:labl xml-lang="en">BURG</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">17020</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>FRAUD</ddi:catValu>
+        <ddi:labl xml-lang="en">FRAUD</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">4011</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>FRAUDP</ddi:catValu>
+        <ddi:labl xml-lang="en">FRAUDP</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">518</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>THEFT</ddi:catValu>
+        <ddi:labl xml-lang="en">THEFT</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">49530</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>IDENT</ddi:catValu>
+        <ddi:labl xml-lang="en">IDENT</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">20</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>THEFTC</ddi:catValu>
+        <ddi:labl xml-lang="en">THEFTC</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">8625</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>THEFTP</ddi:catValu>
+        <ddi:labl xml-lang="en">THEFTP</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">22616</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>VAND</ddi:catValu>
+        <ddi:labl xml-lang="en">VAND</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">11394</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>VANDP</ddi:catValu>
+        <ddi:labl xml-lang="en">VANDP</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">5670</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>VEHST</ddi:catValu>
+        <ddi:labl xml-lang="en">VEHST</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">20952</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>ACCHR</ddi:catValu>
+        <ddi:labl xml-lang="en">ACCHR</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">14188</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>ACCHRP</ddi:catValu>
+        <ddi:labl xml-lang="en">ACCHRP</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">8669</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>ACCINJ</ddi:catValu>
+        <ddi:labl xml-lang="en">ACCINJ</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">12371</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>HOSTGE</ddi:catValu>
+        <ddi:labl xml-lang="en">HOSTGE</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">1</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>ACCNON</ddi:catValu>
+        <ddi:labl xml-lang="en">ACCNON</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">24868</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>ACCUNK</ddi:catValu>
+        <ddi:labl xml-lang="en">ACCUNK</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">5039</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>DUII</ddi:catValu>
+        <ddi:labl xml-lang="en">DUII</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">3238</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>HAZARD</ddi:catValu>
+        <ddi:labl xml-lang="en">HAZARD</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">27210</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>TRASTP</ddi:catValu>
+        <ddi:labl xml-lang="en">TRASTP</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">98</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>WRONG</ddi:catValu>
+        <ddi:labl xml-lang="en">WRONG</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">272</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>TPURS</ddi:catValu>
+        <ddi:labl xml-lang="en">TPURS</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">8</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>RSTLN</ddi:catValu>
+        <ddi:labl xml-lang="en">RSTLN</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">4</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>VEHREC</ddi:catValu>
+        <ddi:labl xml-lang="en">VEHREC</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">6361</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>VEHSTP</ddi:catValu>
+        <ddi:labl xml-lang="en">VEHSTP</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">1338</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>PROWLP</ddi:catValu>
+        <ddi:labl xml-lang="en">PROWLP</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">1116</ddi:catStat>
+      </ddi:catgry>
+      <ddi:catgry>
+        <ddi:catValu>BURGP</ddi:catValu>
+        <ddi:labl xml-lang="en">BURGP</ddi:labl>
+        <ddi:catStat type="freq" wgtd="not-wgtd">3555</ddi:catStat>
+      </ddi:catgry>
+      <ddi:varFormat type="character" schema="other" formatname=""/>
+    </ddi:var>
+    <ddi:var ID="Gl4NUfiLogSCDZOo" name="case_desc" files="npJ2jvn4BPp7PWyd" dcml="0">
+      <ddi:location width="45" StartPos="44" EndPos="88"/>
+      <ddi:labl xml-lang="en">Case description</ddi:labl>
+      <ddi:sumStat wgtd="not-wgtd" type="vald">876265</ddi:sumStat>
+      <ddi:sumStat wgtd="not-wgtd" type="invd">0</ddi:sumStat>
+      <ddi:varFormat type="character" schema="other" formatname=""/>
+    </ddi:var>
+    <ddi:var ID="YqAlDBNKULcjDz0y" name="occ_date" files="npJ2jvn4BPp7PWyd" dcml="0">
+      <ddi:location width="10" StartPos="89" EndPos="98"/>
+      <ddi:labl xml-lang="en">Occurrence date</ddi:labl>
+      <ddi:sumStat wgtd="not-wgtd" type="vald">876265</ddi:sumStat>
+      <ddi:sumStat wgtd="not-wgtd" type="invd">0</ddi:sumStat>
+      <ddi:varFormat type="character" schema="other" formatname=""/>
+    </ddi:var>
+    <ddi:var ID="MPly3pfGwdXJwasE" name="x_coordinate" files="npJ2jvn4BPp7PWyd" dcml="0">
+      <ddi:location width="7" StartPos="99" EndPos="105"/>
+      <ddi:labl xml-lang="en">X coordinate</ddi:labl>
+      <ddi:sumStat wgtd="not-wgtd" type="mean">7657708.604</ddi:sumStat>
+      <ddi:sumStat wgtd="not-wgtd" type="min">0</ddi:sumStat>
+      <ddi:sumStat wgtd="not-wgtd" type="max">7762614</ddi:sumStat>
+      <ddi:sumStat wgtd="not-wgtd" type="stdev">18904.31</ddi:sumStat>
+      <ddi:sumStat wgtd="not-wgtd" type="vald">876265</ddi:sumStat>
+      <ddi:sumStat wgtd="not-wgtd" type="invd">0</ddi:sumStat>
+      <ddi:varFormat type="numeric" schema="other" formatname=""/>
+    </ddi:var>
+    <ddi:var ID="YP9o0DepZzRMmn8w" name="y_coordinate" files="npJ2jvn4BPp7PWyd" dcml="0">
+      <ddi:location width="6" StartPos="106" EndPos="111"/>
+      <ddi:labl xml-lang="en">Y coordinate</ddi:labl>
+      <ddi:sumStat wgtd="not-wgtd" type="mean">684500.375</ddi:sumStat>
+      <ddi:sumStat wgtd="not-wgtd" type="min">0</ddi:sumStat>
+      <ddi:sumStat wgtd="not-wgtd" type="max">787862</ddi:sumStat>
+      <ddi:sumStat wgtd="not-wgtd" type="stdev">12411.42</ddi:sumStat>
+      <ddi:sumStat wgtd="not-wgtd" type="vald">876265</ddi:sumStat>
+      <ddi:sumStat wgtd="not-wgtd" type="invd">0</ddi:sumStat>
+      <ddi:varFormat type="numeric" schema="other" formatname=""/>
+    </ddi:var>
+    <ddi:var ID="WWsFjuna0ve6U342" name="census_tract" files="npJ2jvn4BPp7PWyd" dcml="0">
+      <ddi:location width="6" StartPos="112" EndPos="117"/>
+      <ddi:labl xml-lang="en">Census tract</ddi:labl>
+      <ddi:sumStat wgtd="not-wgtd" type="vald">876265</ddi:sumStat>
+      <ddi:sumStat wgtd="not-wgtd" type="invd">0</ddi:sumStat>
+      <ddi:varFormat type="character" schema="other" formatname=""/>
+    </ddi:var>
+  </ddi:dataDscr>
+</ddi:codeBook>

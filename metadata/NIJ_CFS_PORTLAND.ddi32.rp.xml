@@ -1,0 +1,2136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file was produced automatically by the OpenDataForge
+ Lifecycle XML Generator v2016.10.26                     
+                                                          
+ For more information on our products or services visit	 
+ http://www.mtna.us.-->
+<ddi:DDIInstance xml:lang="en" isMaintainable="true" scopeOfUniqueness="Agency" xmlns:ddi="ddi:instance:3_2">
+  <ddi1:URN typeOfIdentifier="Canonical" xmlns:ddi1="ddi:reusable:3_2">urn:ddi:us.mtna:ly0dbcPjAAv8rFyg:1.0.0</ddi1:URN>
+  <ddi1:ResourcePackage xml:lang="en" isMaintainable="true" scopeOfUniqueness="Agency" xmlns:ddi1="ddi:group:3_2">
+    <ddi2:URN typeOfIdentifier="Canonical" xmlns:ddi2="ddi:reusable:3_2">urn:ddi:us.mtna:dxyGxxXmxB8PBjpg:1.0.0</ddi2:URN>
+    <ddi2:Purpose xmlns:ddi2="ddi:reusable:3_2">
+      <ddi2:Content/>
+    </ddi2:Purpose>
+    <ddi2:LogicalProduct xml:lang="en" isMaintainable="true" scopeOfUniqueness="Agency" xmlns:ddi2="ddi:logicalproduct:3_2">
+      <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:yV1s5b8RNwHLChZk:1.0.0</ddi3:URN>
+      <ddi2:LogicalProductName>
+        <ddi3:String xmlns:ddi3="ddi:reusable:3_2">NIJ_CFS_PORTLAND</ddi3:String>
+      </ddi2:LogicalProductName>
+      <ddi2:DataRelationship versionDate="2016-10-26T16:44:39Z">
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:rvPPRYTO:1.0.0</ddi3:URN>
+        <ddi2:LogicalRecord hasLocator="false">
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:p12WUhkz:1.0.0</ddi3:URN>
+          <ddi2:LogicalRecordName>
+            <ddi3:String xmlns:ddi3="ddi:reusable:3_2">NIJ_CFS_PORTLAND</ddi3:String>
+          </ddi2:LogicalRecordName>
+          <ddi2:VariablesInRecord allVariablesInLogicalProduct="false">
+            <ddi2:VariableUsedReference>
+              <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:ZRob3QOm:1.0.0</ddi3:URN>
+              <ddi3:TypeOfObject xmlns:ddi3="ddi:reusable:3_2">Variable</ddi3:TypeOfObject>
+            </ddi2:VariableUsedReference>
+            <ddi2:VariableUsedReference>
+              <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:jwd3ZPzN:1.0.0</ddi3:URN>
+              <ddi3:TypeOfObject xmlns:ddi3="ddi:reusable:3_2">Variable</ddi3:TypeOfObject>
+            </ddi2:VariableUsedReference>
+            <ddi2:VariableUsedReference>
+              <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:n6uq7NnZ:1.0.0</ddi3:URN>
+              <ddi3:TypeOfObject xmlns:ddi3="ddi:reusable:3_2">Variable</ddi3:TypeOfObject>
+            </ddi2:VariableUsedReference>
+            <ddi2:VariableUsedReference>
+              <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:PNJ0dtBC:1.0.0</ddi3:URN>
+              <ddi3:TypeOfObject xmlns:ddi3="ddi:reusable:3_2">Variable</ddi3:TypeOfObject>
+            </ddi2:VariableUsedReference>
+            <ddi2:VariableUsedReference>
+              <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:vexiGoFv:1.0.0</ddi3:URN>
+              <ddi3:TypeOfObject xmlns:ddi3="ddi:reusable:3_2">Variable</ddi3:TypeOfObject>
+            </ddi2:VariableUsedReference>
+            <ddi2:VariableUsedReference>
+              <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:iEC7srVi:1.0.0</ddi3:URN>
+              <ddi3:TypeOfObject xmlns:ddi3="ddi:reusable:3_2">Variable</ddi3:TypeOfObject>
+            </ddi2:VariableUsedReference>
+            <ddi2:VariableUsedReference>
+              <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:CRiJRxbM:1.0.0</ddi3:URN>
+              <ddi3:TypeOfObject xmlns:ddi3="ddi:reusable:3_2">Variable</ddi3:TypeOfObject>
+            </ddi2:VariableUsedReference>
+            <ddi2:VariableUsedReference>
+              <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:in4owaIO:1.0.0</ddi3:URN>
+              <ddi3:TypeOfObject xmlns:ddi3="ddi:reusable:3_2">Variable</ddi3:TypeOfObject>
+            </ddi2:VariableUsedReference>
+          </ddi2:VariablesInRecord>
+        </ddi2:LogicalRecord>
+      </ddi2:DataRelationship>
+      <ddi3:CategorySchemeReference xmlns:ddi3="ddi:reusable:3_2">
+        <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:bn5Zus4Kr4S34oLy:1.0.0</ddi3:URN>
+        <ddi3:TypeOfObject>CategoryScheme</ddi3:TypeOfObject>
+      </ddi3:CategorySchemeReference>
+      <ddi3:CategorySchemeReference xmlns:ddi3="ddi:reusable:3_2">
+        <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:ldu1GHpGRByYldyy:1.0.0</ddi3:URN>
+        <ddi3:TypeOfObject>CategoryScheme</ddi3:TypeOfObject>
+      </ddi3:CategorySchemeReference>
+      <ddi3:CategorySchemeReference xmlns:ddi3="ddi:reusable:3_2">
+        <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:WBfbEvTWmwYMkOw3:1.0.0</ddi3:URN>
+        <ddi3:TypeOfObject>CategoryScheme</ddi3:TypeOfObject>
+      </ddi3:CategorySchemeReference>
+      <ddi3:CodeListSchemeReference xmlns:ddi3="ddi:reusable:3_2">
+        <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:rh3mWTWMuIQkt3vC:1.0.0</ddi3:URN>
+        <ddi3:TypeOfObject>CodeListScheme</ddi3:TypeOfObject>
+      </ddi3:CodeListSchemeReference>
+      <ddi3:VariableSchemeReference xmlns:ddi3="ddi:reusable:3_2">
+        <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:paxHRJs6hcKxThhw:1.0.0</ddi3:URN>
+        <ddi3:TypeOfObject>VariableScheme</ddi3:TypeOfObject>
+      </ddi3:VariableSchemeReference>
+    </ddi2:LogicalProduct>
+    <ddi2:PhysicalDataProduct xml:lang="en" isMaintainable="true" scopeOfUniqueness="Agency" xmlns:ddi2="ddi:physicaldataproduct:3_2">
+      <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:oYIyEK7ZBNJYSoBs:1.0.0</ddi3:URN>
+      <ddi2:PhysicalDataProductName>
+        <ddi3:String xmlns:ddi3="ddi:reusable:3_2">NIJ_CFS_PORTLAND</ddi3:String>
+      </ddi2:PhysicalDataProductName>
+      <ddi2:PhysicalStructureScheme>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:izVTG4pp9yQOPJla:1.0.0</ddi3:URN>
+        <ddi2:PhysicalStructure>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:HoUIsapj:1.0.0</ddi3:URN>
+          <ddi3:BasedOnObject xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:BasedOnReference>
+              <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:yV1s5b8RNwHLChZk:1.0.0</ddi3:URN>
+              <ddi3:TypeOfObject>LogicalProduct</ddi3:TypeOfObject>
+            </ddi3:BasedOnReference>
+          </ddi3:BasedOnObject>
+          <ddi2:FileFormat>ASCII</ddi2:FileFormat>
+          <ddi2:GrossRecordStructure numberOfPhysicalSegments="1">
+            <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:Xd2xJYZC:1.0.0</ddi3:URN>
+            <ddi2:LogicalRecordReference>
+              <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:p12WUhkz:1.0.0</ddi3:URN>
+              <ddi3:TypeOfObject xmlns:ddi3="ddi:reusable:3_2">LogicalRecord</ddi3:TypeOfObject>
+            </ddi2:LogicalRecordReference>
+            <ddi2:PhysicalRecordSegment hasSegmentKey="false" segmentOrder="1">
+              <ddi3:Agency xmlns:ddi3="ddi:reusable:3_2">us.mtna</ddi3:Agency>
+              <ddi3:ID xmlns:ddi3="ddi:reusable:3_2">dVD67lZN</ddi3:ID>
+              <ddi3:Version xmlns:ddi3="ddi:reusable:3_2">1.0.0</ddi3:Version>
+              <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:dVD67lZN:1.0.0</ddi3:URN>
+            </ddi2:PhysicalRecordSegment>
+          </ddi2:GrossRecordStructure>
+        </ddi2:PhysicalStructure>
+      </ddi2:PhysicalStructureScheme>
+      <ddi2:RecordLayoutScheme>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:gpJbT8CT9S3tVRB5:1.0.0</ddi3:URN>
+        <ddi2:RecordLayout>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:iFhbfml4:1.0.0</ddi3:URN>
+          <ddi2:PhysicalStructureLinkReference>
+            <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:HoUIsapj:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject xmlns:ddi3="ddi:reusable:3_2">PhysicalRecordSegment</ddi3:TypeOfObject>
+            <ddi2:PhysicalRecordSegmentUsed>dVD67lZN</ddi2:PhysicalRecordSegmentUsed>
+          </ddi2:PhysicalStructureLinkReference>
+          <ddi3:CharacterSet xmlns:ddi3="ddi:reusable:3_2">ASCII</ddi3:CharacterSet>
+          <ddi3:ArrayBase xmlns:ddi3="ddi:reusable:3_2">1</ddi3:ArrayBase>
+          <ddi3:DefaultVariableSchemeReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:paxHRJs6hcKxThhw:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>VariableScheme</ddi3:TypeOfObject>
+          </ddi3:DefaultVariableSchemeReference>
+          <ddi2:DataItem>
+            <ddi3:VariableReference xmlns:ddi3="ddi:reusable:3_2">
+              <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:ZRob3QOm:1.0.0</ddi3:URN>
+              <ddi3:TypeOfObject>Variable</ddi3:TypeOfObject>
+            </ddi3:VariableReference>
+            <ddi2:PhysicalLocation>
+              <ddi2:StartPosition>1</ddi2:StartPosition>
+              <ddi2:ArrayPosition>1</ddi2:ArrayPosition>
+              <ddi2:EndPosition>19</ddi2:EndPosition>
+              <ddi2:Width>19</ddi2:Width>
+              <ddi2:DecimalPositions>0</ddi2:DecimalPositions>
+            </ddi2:PhysicalLocation>
+          </ddi2:DataItem>
+          <ddi2:DataItem>
+            <ddi3:VariableReference xmlns:ddi3="ddi:reusable:3_2">
+              <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:jwd3ZPzN:1.0.0</ddi3:URN>
+              <ddi3:TypeOfObject>Variable</ddi3:TypeOfObject>
+            </ddi3:VariableReference>
+            <ddi2:PhysicalLocation>
+              <ddi2:StartPosition>20</ddi2:StartPosition>
+              <ddi2:ArrayPosition>2</ddi2:ArrayPosition>
+              <ddi2:EndPosition>37</ddi2:EndPosition>
+              <ddi2:Width>18</ddi2:Width>
+              <ddi2:DecimalPositions>0</ddi2:DecimalPositions>
+            </ddi2:PhysicalLocation>
+          </ddi2:DataItem>
+          <ddi2:DataItem>
+            <ddi3:VariableReference xmlns:ddi3="ddi:reusable:3_2">
+              <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:n6uq7NnZ:1.0.0</ddi3:URN>
+              <ddi3:TypeOfObject>Variable</ddi3:TypeOfObject>
+            </ddi3:VariableReference>
+            <ddi2:PhysicalLocation>
+              <ddi2:StartPosition>38</ddi2:StartPosition>
+              <ddi2:ArrayPosition>3</ddi2:ArrayPosition>
+              <ddi2:EndPosition>43</ddi2:EndPosition>
+              <ddi2:Width>6</ddi2:Width>
+              <ddi2:DecimalPositions>0</ddi2:DecimalPositions>
+            </ddi2:PhysicalLocation>
+          </ddi2:DataItem>
+          <ddi2:DataItem>
+            <ddi3:VariableReference xmlns:ddi3="ddi:reusable:3_2">
+              <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:PNJ0dtBC:1.0.0</ddi3:URN>
+              <ddi3:TypeOfObject>Variable</ddi3:TypeOfObject>
+            </ddi3:VariableReference>
+            <ddi2:PhysicalLocation>
+              <ddi2:StartPosition>44</ddi2:StartPosition>
+              <ddi2:ArrayPosition>4</ddi2:ArrayPosition>
+              <ddi2:EndPosition>88</ddi2:EndPosition>
+              <ddi2:Width>45</ddi2:Width>
+              <ddi2:DecimalPositions>0</ddi2:DecimalPositions>
+            </ddi2:PhysicalLocation>
+          </ddi2:DataItem>
+          <ddi2:DataItem>
+            <ddi3:VariableReference xmlns:ddi3="ddi:reusable:3_2">
+              <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:vexiGoFv:1.0.0</ddi3:URN>
+              <ddi3:TypeOfObject>Variable</ddi3:TypeOfObject>
+            </ddi3:VariableReference>
+            <ddi2:PhysicalLocation>
+              <ddi2:StartPosition>89</ddi2:StartPosition>
+              <ddi2:ArrayPosition>5</ddi2:ArrayPosition>
+              <ddi2:EndPosition>98</ddi2:EndPosition>
+              <ddi2:Width>10</ddi2:Width>
+              <ddi2:DecimalPositions>0</ddi2:DecimalPositions>
+            </ddi2:PhysicalLocation>
+          </ddi2:DataItem>
+          <ddi2:DataItem>
+            <ddi3:VariableReference xmlns:ddi3="ddi:reusable:3_2">
+              <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:iEC7srVi:1.0.0</ddi3:URN>
+              <ddi3:TypeOfObject>Variable</ddi3:TypeOfObject>
+            </ddi3:VariableReference>
+            <ddi2:PhysicalLocation>
+              <ddi2:StartPosition>99</ddi2:StartPosition>
+              <ddi2:ArrayPosition>6</ddi2:ArrayPosition>
+              <ddi2:EndPosition>105</ddi2:EndPosition>
+              <ddi2:Width>7</ddi2:Width>
+              <ddi2:DecimalPositions>0</ddi2:DecimalPositions>
+            </ddi2:PhysicalLocation>
+          </ddi2:DataItem>
+          <ddi2:DataItem>
+            <ddi3:VariableReference xmlns:ddi3="ddi:reusable:3_2">
+              <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:CRiJRxbM:1.0.0</ddi3:URN>
+              <ddi3:TypeOfObject>Variable</ddi3:TypeOfObject>
+            </ddi3:VariableReference>
+            <ddi2:PhysicalLocation>
+              <ddi2:StartPosition>106</ddi2:StartPosition>
+              <ddi2:ArrayPosition>7</ddi2:ArrayPosition>
+              <ddi2:EndPosition>111</ddi2:EndPosition>
+              <ddi2:Width>6</ddi2:Width>
+              <ddi2:DecimalPositions>0</ddi2:DecimalPositions>
+            </ddi2:PhysicalLocation>
+          </ddi2:DataItem>
+          <ddi2:DataItem>
+            <ddi3:VariableReference xmlns:ddi3="ddi:reusable:3_2">
+              <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:in4owaIO:1.0.0</ddi3:URN>
+              <ddi3:TypeOfObject>Variable</ddi3:TypeOfObject>
+            </ddi3:VariableReference>
+            <ddi2:PhysicalLocation>
+              <ddi2:StartPosition>112</ddi2:StartPosition>
+              <ddi2:ArrayPosition>8</ddi2:ArrayPosition>
+              <ddi2:EndPosition>117</ddi2:EndPosition>
+              <ddi2:Width>6</ddi2:Width>
+              <ddi2:DecimalPositions>0</ddi2:DecimalPositions>
+            </ddi2:PhysicalLocation>
+          </ddi2:DataItem>
+        </ddi2:RecordLayout>
+      </ddi2:RecordLayoutScheme>
+    </ddi2:PhysicalDataProduct>
+    <ddi2:PhysicalDataProduct xml:lang="en" isMaintainable="true" scopeOfUniqueness="Agency" xmlns:ddi2="ddi:physicaldataproduct:3_2">
+      <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:C9e1i1pHcCjQ6gaV:1.0.0</ddi3:URN>
+      <ddi2:PhysicalStructureScheme>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:ZdLnmhPR68jdDIaD:1.0.0</ddi3:URN>
+        <ddi2:PhysicalStructure>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:oa682frw:1.0.0</ddi3:URN>
+          <ddi3:BasedOnObject xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:BasedOnReference>
+              <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:yV1s5b8RNwHLChZk:1.0.0</ddi3:URN>
+              <ddi3:TypeOfObject>LogicalProduct</ddi3:TypeOfObject>
+            </ddi3:BasedOnReference>
+          </ddi3:BasedOnObject>
+          <ddi2:FileFormat/>
+          <ddi2:GrossRecordStructure numberOfPhysicalSegments="1">
+            <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:CRGux2UP:1.0.0</ddi3:URN>
+            <ddi2:LogicalRecordReference>
+              <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:p12WUhkz:1.0.0</ddi3:URN>
+              <ddi3:TypeOfObject xmlns:ddi3="ddi:reusable:3_2">LogicalRecord</ddi3:TypeOfObject>
+            </ddi2:LogicalRecordReference>
+            <ddi2:PhysicalRecordSegment hasSegmentKey="false" segmentOrder="1">
+              <ddi3:Agency xmlns:ddi3="ddi:reusable:3_2">us.mtna</ddi3:Agency>
+              <ddi3:ID xmlns:ddi3="ddi:reusable:3_2">Dr9hj8ye</ddi3:ID>
+              <ddi3:Version xmlns:ddi3="ddi:reusable:3_2">1.0.0</ddi3:Version>
+              <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:Dr9hj8ye:1.0.0</ddi3:URN>
+            </ddi2:PhysicalRecordSegment>
+          </ddi2:GrossRecordStructure>
+        </ddi2:PhysicalStructure>
+      </ddi2:PhysicalStructureScheme>
+      <ddi2:RecordLayoutScheme>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:uz72uzfaND9jeRBq:1.0.0</ddi3:URN>
+        <ddi3:RecordLayout xmlns:ddi3="ddi:physicaldataproduct_proprietary:3_2">
+          <ddi4:URN typeOfIdentifier="Canonical" xmlns:ddi4="ddi:reusable:3_2">urn:ddi:us.mtna:a0yvr2YT:1.0.0</ddi4:URN>
+          <ddi2:PhysicalStructureLinkReference>
+            <ddi4:URN typeOfIdentifier="Canonical" xmlns:ddi4="ddi:reusable:3_2">urn:ddi:us.mtna:oa682frw:1.0.0</ddi4:URN>
+            <ddi4:TypeOfObject xmlns:ddi4="ddi:reusable:3_2">PhysicalRecordSegment</ddi4:TypeOfObject>
+            <ddi2:PhysicalRecordSegmentUsed>Dr9hj8ye</ddi2:PhysicalRecordSegmentUsed>
+          </ddi2:PhysicalStructureLinkReference>
+          <ddi3:SystemSoftware>
+            <ddi4:SoftwareName xmlns:ddi4="ddi:reusable:3_2">
+              <ddi4:String xml:lang="en">SledgeHammer</ddi4:String>
+            </ddi4:SoftwareName>
+            <ddi4:Description xmlns:ddi4="ddi:reusable:3_2">
+              <ddi4:Content>A data file based off the DDI Codebook 2.5 file metasheet.cfs_dbf.ddi.xml.</ddi4:Content>
+            </ddi4:Description>
+          </ddi3:SystemSoftware>
+          <ddi4:DefaultVariableSchemeReference xmlns:ddi4="ddi:reusable:3_2">
+            <ddi4:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:paxHRJs6hcKxThhw:1.0.0</ddi4:URN>
+            <ddi4:TypeOfObject>VariableScheme</ddi4:TypeOfObject>
+          </ddi4:DefaultVariableSchemeReference>
+          <ddi3:DataItem>
+            <ddi4:VariableReference xmlns:ddi4="ddi:reusable:3_2">
+              <ddi4:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:ZRob3QOm:1.0.0</ddi4:URN>
+              <ddi4:TypeOfObject>Variable</ddi4:TypeOfObject>
+            </ddi4:VariableReference>
+            <ddi3:ProprietaryDataType/>
+            <ddi3:ProprietaryOutputFormat/>
+          </ddi3:DataItem>
+          <ddi3:DataItem>
+            <ddi4:VariableReference xmlns:ddi4="ddi:reusable:3_2">
+              <ddi4:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:jwd3ZPzN:1.0.0</ddi4:URN>
+              <ddi4:TypeOfObject>Variable</ddi4:TypeOfObject>
+            </ddi4:VariableReference>
+            <ddi3:ProprietaryDataType/>
+            <ddi3:ProprietaryOutputFormat/>
+          </ddi3:DataItem>
+          <ddi3:DataItem>
+            <ddi4:VariableReference xmlns:ddi4="ddi:reusable:3_2">
+              <ddi4:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:n6uq7NnZ:1.0.0</ddi4:URN>
+              <ddi4:TypeOfObject>Variable</ddi4:TypeOfObject>
+            </ddi4:VariableReference>
+            <ddi3:ProprietaryDataType/>
+            <ddi3:ProprietaryOutputFormat/>
+          </ddi3:DataItem>
+          <ddi3:DataItem>
+            <ddi4:VariableReference xmlns:ddi4="ddi:reusable:3_2">
+              <ddi4:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:PNJ0dtBC:1.0.0</ddi4:URN>
+              <ddi4:TypeOfObject>Variable</ddi4:TypeOfObject>
+            </ddi4:VariableReference>
+            <ddi3:ProprietaryDataType/>
+            <ddi3:ProprietaryOutputFormat/>
+          </ddi3:DataItem>
+          <ddi3:DataItem>
+            <ddi4:VariableReference xmlns:ddi4="ddi:reusable:3_2">
+              <ddi4:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:vexiGoFv:1.0.0</ddi4:URN>
+              <ddi4:TypeOfObject>Variable</ddi4:TypeOfObject>
+            </ddi4:VariableReference>
+            <ddi3:ProprietaryDataType/>
+            <ddi3:ProprietaryOutputFormat/>
+          </ddi3:DataItem>
+          <ddi3:DataItem>
+            <ddi4:VariableReference xmlns:ddi4="ddi:reusable:3_2">
+              <ddi4:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:iEC7srVi:1.0.0</ddi4:URN>
+              <ddi4:TypeOfObject>Variable</ddi4:TypeOfObject>
+            </ddi4:VariableReference>
+            <ddi3:ProprietaryDataType/>
+            <ddi3:ProprietaryOutputFormat/>
+          </ddi3:DataItem>
+          <ddi3:DataItem>
+            <ddi4:VariableReference xmlns:ddi4="ddi:reusable:3_2">
+              <ddi4:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:CRiJRxbM:1.0.0</ddi4:URN>
+              <ddi4:TypeOfObject>Variable</ddi4:TypeOfObject>
+            </ddi4:VariableReference>
+            <ddi3:ProprietaryDataType/>
+            <ddi3:ProprietaryOutputFormat/>
+          </ddi3:DataItem>
+          <ddi3:DataItem>
+            <ddi4:VariableReference xmlns:ddi4="ddi:reusable:3_2">
+              <ddi4:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:in4owaIO:1.0.0</ddi4:URN>
+              <ddi4:TypeOfObject>Variable</ddi4:TypeOfObject>
+            </ddi4:VariableReference>
+            <ddi3:ProprietaryDataType/>
+            <ddi3:ProprietaryOutputFormat/>
+          </ddi3:DataItem>
+        </ddi3:RecordLayout>
+      </ddi2:RecordLayoutScheme>
+    </ddi2:PhysicalDataProduct>
+    <ddi2:PhysicalInstance xml:lang="en" isMaintainable="true" scopeOfUniqueness="Agency" xmlns:ddi2="ddi:physicalinstance:3_2">
+      <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:RLytyif5UTgMf7yg:1.0.0</ddi3:URN>
+      <ddi3:RecordLayoutReference xmlns:ddi3="ddi:reusable:3_2">
+        <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:iFhbfml4:1.0.0</ddi3:URN>
+        <ddi3:TypeOfObject>RecordLayout</ddi3:TypeOfObject>
+      </ddi3:RecordLayoutReference>
+      <ddi2:DataFileIdentification>
+        <ddi2:DataFileURI>NIJ_CFS_PORTLAND</ddi2:DataFileURI>
+      </ddi2:DataFileIdentification>
+      <ddi2:GrossFileStructure>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:YUDK0xLV:1.0.0</ddi3:URN>
+        <ddi2:CreationSoftware>
+          <ddi3:SoftwareName xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:String>SledgeHammer</ddi3:String>
+          </ddi3:SoftwareName>
+        </ddi2:CreationSoftware>
+        <ddi2:CaseQuantity>876265</ddi2:CaseQuantity>
+      </ddi2:GrossFileStructure>
+      <ddi2:StatisticalSummary>
+        <ddi2:VariableStatistics>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:SIL4Zqaw:1.0.0</ddi3:URN>
+          <ddi3:VariableReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:iEC7srVi:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Variable</ddi3:TypeOfObject>
+          </ddi3:VariableReference>
+          <ddi2:SummaryStatistic>
+            <ddi2:TypeOfSummaryStatistic>Mean</ddi2:TypeOfSummaryStatistic>
+            <ddi2:Statistic isWeighted="false">7657708.604</ddi2:Statistic>
+          </ddi2:SummaryStatistic>
+          <ddi2:SummaryStatistic>
+            <ddi2:TypeOfSummaryStatistic>Minimum</ddi2:TypeOfSummaryStatistic>
+            <ddi2:Statistic isWeighted="false">0</ddi2:Statistic>
+          </ddi2:SummaryStatistic>
+          <ddi2:SummaryStatistic>
+            <ddi2:TypeOfSummaryStatistic>Maximum</ddi2:TypeOfSummaryStatistic>
+            <ddi2:Statistic isWeighted="false">7762614</ddi2:Statistic>
+          </ddi2:SummaryStatistic>
+          <ddi2:SummaryStatistic>
+            <ddi2:TypeOfSummaryStatistic>Standard Deviation</ddi2:TypeOfSummaryStatistic>
+            <ddi2:Statistic isWeighted="false">18904.31</ddi2:Statistic>
+          </ddi2:SummaryStatistic>
+          <ddi2:SummaryStatistic>
+            <ddi2:TypeOfSummaryStatistic>Valid</ddi2:TypeOfSummaryStatistic>
+            <ddi2:Statistic isWeighted="false">876265</ddi2:Statistic>
+          </ddi2:SummaryStatistic>
+          <ddi2:SummaryStatistic>
+            <ddi2:TypeOfSummaryStatistic>Invalid</ddi2:TypeOfSummaryStatistic>
+            <ddi2:Statistic isWeighted="false">0</ddi2:Statistic>
+          </ddi2:SummaryStatistic>
+        </ddi2:VariableStatistics>
+        <ddi2:VariableStatistics>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:qJpE8fnI:1.0.0</ddi3:URN>
+          <ddi3:VariableReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:CRiJRxbM:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Variable</ddi3:TypeOfObject>
+          </ddi3:VariableReference>
+          <ddi2:SummaryStatistic>
+            <ddi2:TypeOfSummaryStatistic>Mean</ddi2:TypeOfSummaryStatistic>
+            <ddi2:Statistic isWeighted="false">684500.375</ddi2:Statistic>
+          </ddi2:SummaryStatistic>
+          <ddi2:SummaryStatistic>
+            <ddi2:TypeOfSummaryStatistic>Minimum</ddi2:TypeOfSummaryStatistic>
+            <ddi2:Statistic isWeighted="false">0</ddi2:Statistic>
+          </ddi2:SummaryStatistic>
+          <ddi2:SummaryStatistic>
+            <ddi2:TypeOfSummaryStatistic>Maximum</ddi2:TypeOfSummaryStatistic>
+            <ddi2:Statistic isWeighted="false">787862</ddi2:Statistic>
+          </ddi2:SummaryStatistic>
+          <ddi2:SummaryStatistic>
+            <ddi2:TypeOfSummaryStatistic>Standard Deviation</ddi2:TypeOfSummaryStatistic>
+            <ddi2:Statistic isWeighted="false">12411.42</ddi2:Statistic>
+          </ddi2:SummaryStatistic>
+          <ddi2:SummaryStatistic>
+            <ddi2:TypeOfSummaryStatistic>Valid</ddi2:TypeOfSummaryStatistic>
+            <ddi2:Statistic isWeighted="false">876265</ddi2:Statistic>
+          </ddi2:SummaryStatistic>
+          <ddi2:SummaryStatistic>
+            <ddi2:TypeOfSummaryStatistic>Invalid</ddi2:TypeOfSummaryStatistic>
+            <ddi2:Statistic isWeighted="false">0</ddi2:Statistic>
+          </ddi2:SummaryStatistic>
+        </ddi2:VariableStatistics>
+      </ddi2:StatisticalSummary>
+    </ddi2:PhysicalInstance>
+    <ddi2:PhysicalInstance xml:lang="en" isMaintainable="true" scopeOfUniqueness="Agency" xmlns:ddi2="ddi:physicalinstance:3_2">
+      <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:qS1BE44TvxMvZyDQ:1.0.0</ddi3:URN>
+      <ddi3:RecordLayoutReference xmlns:ddi3="ddi:reusable:3_2">
+        <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:a0yvr2YT:1.0.0</ddi3:URN>
+        <ddi3:TypeOfObject>RecordLayout</ddi3:TypeOfObject>
+      </ddi3:RecordLayoutReference>
+      <ddi2:DataFileIdentification>
+        <ddi2:DataFileURI>NIJ_CFS_PORTLAND</ddi2:DataFileURI>
+      </ddi2:DataFileIdentification>
+      <ddi2:GrossFileStructure>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:r68YnbX6:1.0.0</ddi3:URN>
+        <ddi2:CreationSoftware>
+          <ddi3:SoftwareName xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:String>SledgeHammer</ddi3:String>
+          </ddi3:SoftwareName>
+          <ddi3:Description xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:Content>A data file based off the DDI Codebook 2.5 file metasheet.cfs_dbf.ddi.xml.</ddi3:Content>
+          </ddi3:Description>
+        </ddi2:CreationSoftware>
+        <ddi2:CaseQuantity>876265</ddi2:CaseQuantity>
+      </ddi2:GrossFileStructure>
+      <ddi2:StatisticalSummary>
+        <ddi2:StatisticalDataLocation isInline="true">
+          <ddi3:PhysicalInstanceReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:qS1BE44TvxMvZyDQ:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>PhysicalInstance</ddi3:TypeOfObject>
+          </ddi3:PhysicalInstanceReference>
+        </ddi2:StatisticalDataLocation>
+      </ddi2:StatisticalSummary>
+    </ddi2:PhysicalInstance>
+    <ddi2:CategoryScheme xml:lang="en" isMaintainable="true" scopeOfUniqueness="Agency" xmlns:ddi2="ddi:logicalproduct:3_2">
+      <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:bn5Zus4Kr4S34oLy:1.0.0</ddi3:URN>
+      <ddi2:CategorySchemeName>
+        <ddi3:String xml:lang="en" xmlns:ddi3="ddi:reusable:3_2">category</ddi3:String>
+      </ddi2:CategorySchemeName>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:zf17mSwA:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">STREET CRIMES</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:DLXB3xtT:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">OTHER</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:MlQr9kC0:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">MOTOR VEHICLE THEFT</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:bb2TMVd7:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">BURGLARY</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+    </ddi2:CategoryScheme>
+    <ddi2:CategoryScheme xml:lang="en" isMaintainable="true" scopeOfUniqueness="Agency" xmlns:ddi2="ddi:logicalproduct:3_2">
+      <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:ldu1GHpGRByYldyy:1.0.0</ddi3:URN>
+      <ddi2:CategorySchemeName>
+        <ddi3:String xml:lang="en" xmlns:ddi3="ddi:reusable:3_2">call_group</ddi3:String>
+      </ddi2:CategorySchemeName>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:xhCdG0m5:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">DISORDER</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:PcC6GgwA:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">PERSON CRIME</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:sfYEHH4t:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">SUSPICIOUS</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:ajrAwvBn:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">NON CRIMINAL/ADMIN</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:gilL2ega:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">PROPERTY CRIME</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:O7S7MY4o:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">TRAFFIC</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+    </ddi2:CategoryScheme>
+    <ddi2:CategoryScheme xml:lang="en" isMaintainable="true" scopeOfUniqueness="Agency" xmlns:ddi2="ddi:logicalproduct:3_2">
+      <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:WBfbEvTWmwYMkOw3:1.0.0</ddi3:URN>
+      <ddi2:CategorySchemeName>
+        <ddi3:String xml:lang="en" xmlns:ddi3="ddi:reusable:3_2">final_case_type</ddi3:String>
+      </ddi2:CategorySchemeName>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:xRJxqdkt:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">DISTP</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:h9Ch8jLg:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">DISTW</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:j9aSXuwZ:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">VICE</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:JziE3jok:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">ASSLTP</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:Er7GsZky:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">ASSLTW</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:DHNuxs0T:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">ROBP</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:HEkckncy:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">ROBW</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:XnoiEAz9:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">SHOOTW</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:P7wN6sBu:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">SHOTS</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:E3SCsNOz:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">STABW</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:uRSJvqvP:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">THRETP</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:f3gYvAW0:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">THRETW</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:o5c3ECzK:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">GANG</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:EkfAdfjb:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">AREACK</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:D2Btvhnb:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">PREMCK</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:Mjd5EdQZ:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">SUSP</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:itnY5XUM:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">SUSPP</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:Z2VMpKSj:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">SUSPW</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:RjPhkTFT:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">ANIML</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:i6f0Do1N:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">ANIMLP</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:AKXDnyj0:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">BOMBTH</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:ENIfrFVy:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">DIST</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:chWAYBxm:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">ESCAPE</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:JjaJTiOG:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">FWB</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:NlAjUzNc:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">FWH</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:XEKv96NU:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">FWI</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:QDztsnQd:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">CHEM</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:hWTUKCSY:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">FWN</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:WYkSB9aV:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">NOISE</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:cxvcRW9S:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">PARK</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:FhGDqbrn:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">PARTY</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:uxgdtCKa:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">POLINV</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:kP8KiNsS:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">SCHL</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:uhIpsNVN:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">SCHLP</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:l8FdLk60:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">SCHLW</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:Xcr6Be0w:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">THRET</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:oF5PQb6I:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">TMET</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:z5Miv3Eg:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">TMETP</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:lw0jlrUT:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">TMETW</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:KE3kUwBo:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">TRASH</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:zEZRCJ2A:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">TRASHP</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:f7PwHiIh:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">UNWNT</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:iQAovio1:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">FPURS</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:dABGOkpD:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">UNWNTW</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:SJ4Hx9FI:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">W26</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:i6FbITRN:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">77</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:Npeckdst:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">ASSIST</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:HilD3MSV:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">CIVIL</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:J6sSMnFa:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">EVICT</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:Bq1pfLWJ:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">FLAG</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:BETQfsWp:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">FOLLOW</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:KAK3iLNd:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">MSG</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:Rjd86KW6:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">PROP</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:QW1CNh5w:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">GREAT</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:knQ6oqPb:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">RED</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:oA7jOpLC:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">RIVPOL</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:KRWVhML9:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">SCHLET</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:IeVnoyRF:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">SERVE</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:IlIaWAI2:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">STNDBY</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:n9CIBEZD:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">SUBSTP</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:YphbI99S:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">TRANS</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:GuNVlKwM:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">WARR</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:uFOkNLHT:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">WELCK</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:jkYwsS3L:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">WARRC</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:CGW0qEYI:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">WELCKP</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:Bni298Fi:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">ASSLT</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:GjskIqa0:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">DEVICE</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:MzxVEjwF:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">ROB</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:GBudR6R4:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">SHOOT</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:MuOu0HA6:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">STAB</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:qteECPvG:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">BURG</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:OEQ0fxHb:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">FRAUD</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:XcIoaJqr:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">FRAUDP</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:smWzpf1y:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">THEFT</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:p11SiR1N:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">IDENT</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:l4Kwk6rh:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">THEFTC</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:CtGo4rtE:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">THEFTP</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:LfKmG3Dq:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">VAND</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:A3I1rym3:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">VANDP</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:j1lMP02v:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">VEHST</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:aYlp79ko:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">ACCHR</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:dOavM0to:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">ACCHRP</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:rl5JDor8:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">ACCINJ</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:QugoNmLo:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">HOSTGE</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:oBg7iM2w:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">ACCNON</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:lWWJHx6p:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">ACCUNK</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:SkZ0kDuD:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">DUII</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:SuO54Jn2:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">HAZARD</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:IUgnQ0xN:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">TRASTP</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:xfEi0Plx:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">WRONG</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:IR37mQi1:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">TPURS</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:DjuWYjl2:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">RSTLN</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:S41jzmOw:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">VEHREC</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:Zo7uL3eG:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">VEHSTP</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:lPQ4hmed:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">PROWLP</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+      <ddi2:Category>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:UjMiEU5w:1.0.0</ddi3:URN>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">BURGP</ddi3:Content>
+        </ddi3:Label>
+      </ddi2:Category>
+    </ddi2:CategoryScheme>
+    <ddi2:CodeListScheme xml:lang="en" isMaintainable="true" scopeOfUniqueness="Agency" xmlns:ddi2="ddi:logicalproduct:3_2">
+      <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:zGexY9MCytgGHK8Q:1.0.0</ddi3:URN>
+      <ddi2:CodeList xml:lang="en" isMaintainable="true" scopeOfUniqueness="Agency">
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:rh3mWTWMuIQkt3vC:1.0.0</ddi3:URN>
+        <ddi2:CodeListName>
+          <ddi3:String xmlns:ddi3="ddi:reusable:3_2">category</ddi3:String>
+        </ddi2:CodeListName>
+        <ddi3:CategorySchemeReference xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:bn5Zus4Kr4S34oLy:1.0.0</ddi3:URN>
+          <ddi3:TypeOfObject>CategoryScheme</ddi3:TypeOfObject>
+        </ddi3:CategorySchemeReference>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:Zvyg9Mn4:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:zf17mSwA:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">STC</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:TvBNE5C3:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:DLXB3xtT:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">OTH</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:DqLs2M5B:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:MlQr9kC0:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">MVT</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:AUZHHASx:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:bb2TMVd7:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">BUR</ddi3:Value>
+        </ddi2:Code>
+      </ddi2:CodeList>
+      <ddi2:CodeList xml:lang="en" isMaintainable="true" scopeOfUniqueness="Agency">
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:jdNSSrpwCEhB1kcr:1.0.0</ddi3:URN>
+        <ddi2:CodeListName>
+          <ddi3:String xmlns:ddi3="ddi:reusable:3_2">call_group</ddi3:String>
+        </ddi2:CodeListName>
+        <ddi3:CategorySchemeReference xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:ldu1GHpGRByYldyy:1.0.0</ddi3:URN>
+          <ddi3:TypeOfObject>CategoryScheme</ddi3:TypeOfObject>
+        </ddi3:CategorySchemeReference>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:tNEqFhPF:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:xhCdG0m5:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">DISORDER</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:tnKrT5Z1:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:PcC6GgwA:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">PERSON CRIME</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:KzpAeODR:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:sfYEHH4t:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">SUSPICIOUS</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:Tly7dwfU:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:ajrAwvBn:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">NON CRIMINAL/ADMIN</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:tQZ7LMh9:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:gilL2ega:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">PROPERTY CRIME</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:VQIl3Bzp:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:O7S7MY4o:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">TRAFFIC</ddi3:Value>
+        </ddi2:Code>
+      </ddi2:CodeList>
+      <ddi2:CodeList xml:lang="en" isMaintainable="true" scopeOfUniqueness="Agency">
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:Xw4UMoYk7DDAnIl2:1.0.0</ddi3:URN>
+        <ddi2:CodeListName>
+          <ddi3:String xmlns:ddi3="ddi:reusable:3_2">final_case_type</ddi3:String>
+        </ddi2:CodeListName>
+        <ddi3:CategorySchemeReference xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:WBfbEvTWmwYMkOw3:1.0.0</ddi3:URN>
+          <ddi3:TypeOfObject>CategoryScheme</ddi3:TypeOfObject>
+        </ddi3:CategorySchemeReference>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:vW3AsqOZ:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:xRJxqdkt:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">DISTP</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:DhLDwN7p:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:h9Ch8jLg:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">DISTW</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:cxCC1SKD:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:j9aSXuwZ:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">VICE</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:MCOjppsM:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:JziE3jok:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">ASSLTP</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:OEl9l3Wj:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:Er7GsZky:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">ASSLTW</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:mqkv0gFc:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:DHNuxs0T:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">ROBP</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:rKTNxm2T:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:HEkckncy:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">ROBW</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:YWFgd2jr:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:XnoiEAz9:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">SHOOTW</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:LWHrB0ex:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:P7wN6sBu:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">SHOTS</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:CKF5tDpM:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:E3SCsNOz:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">STABW</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:lePn2Plu:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:uRSJvqvP:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">THRETP</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:w5Z1il7i:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:f3gYvAW0:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">THRETW</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:Ju9jnHYM:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:o5c3ECzK:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">GANG</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:qHsiiVvj:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:EkfAdfjb:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">AREACK</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:slWsE3R1:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:D2Btvhnb:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">PREMCK</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:HfAT2ZEX:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:Mjd5EdQZ:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">SUSP</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:q8qeivLq:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:itnY5XUM:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">SUSPP</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:r5LfdzSc:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:Z2VMpKSj:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">SUSPW</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:FHmNlpCE:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:RjPhkTFT:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">ANIML</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:Nv7fOONh:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:i6f0Do1N:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">ANIMLP</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:csVen2ic:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:AKXDnyj0:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">BOMBTH</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:gfv7obC9:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:ENIfrFVy:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">DIST</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:ITk2Bhaa:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:chWAYBxm:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">ESCAPE</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:fliIvtld:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:JjaJTiOG:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">FWB</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:LVEoQuoB:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:NlAjUzNc:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">FWH</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:sMSfnzFE:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:XEKv96NU:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">FWI</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:n8LzUoDx:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:QDztsnQd:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">CHEM</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:WN6CthZZ:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:hWTUKCSY:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">FWN</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:M5ijSg1T:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:WYkSB9aV:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">NOISE</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:Yg6OfSrm:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:cxvcRW9S:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">PARK</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:fu0OCNVT:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:FhGDqbrn:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">PARTY</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:q3TANp2c:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:uxgdtCKa:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">POLINV</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:ExL9zRmL:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:kP8KiNsS:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">SCHL</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:fJYRwLnC:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:uhIpsNVN:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">SCHLP</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:GA3UkEQ6:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:l8FdLk60:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">SCHLW</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:u12SxGTO:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:Xcr6Be0w:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">THRET</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:YvqvdEYy:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:oF5PQb6I:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">TMET</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:mxFVuhQs:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:z5Miv3Eg:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">TMETP</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:vV312aI4:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:lw0jlrUT:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">TMETW</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:jx0fW8BB:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:KE3kUwBo:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">TRASH</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:QQLdWP06:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:zEZRCJ2A:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">TRASHP</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:BeLqOUHF:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:f7PwHiIh:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">UNWNT</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:JiYIthxq:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:iQAovio1:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">FPURS</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:caLyzi7p:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:dABGOkpD:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">UNWNTW</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:XoeRjrNm:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:SJ4Hx9FI:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">W26</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:HR0R9R4t:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:i6FbITRN:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">77</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:w24pz16j:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:Npeckdst:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">ASSIST</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:yoBTDRnH:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:HilD3MSV:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">CIVIL</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:ghpUHKSe:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:J6sSMnFa:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">EVICT</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:kK8ABaQR:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:Bq1pfLWJ:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">FLAG</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:dqkYuVNe:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:BETQfsWp:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">FOLLOW</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:iEUUE5ae:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:KAK3iLNd:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">MSG</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:JVtlPWec:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:Rjd86KW6:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">PROP</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:IgcXDNjM:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:QW1CNh5w:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">GREAT</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:qPFgSunX:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:knQ6oqPb:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">RED</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:fghYwDI0:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:oA7jOpLC:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">RIVPOL</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:MD3i4iSu:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:KRWVhML9:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">SCHLET</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:TaLDjfH5:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:IeVnoyRF:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">SERVE</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:Lq5px4dI:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:IlIaWAI2:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">STNDBY</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:jLeI9EqD:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:n9CIBEZD:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">SUBSTP</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:RxSjbcNx:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:YphbI99S:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">TRANS</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:f1mg3ndV:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:GuNVlKwM:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">WARR</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:LuYnRE22:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:uFOkNLHT:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">WELCK</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:nmkhHz9q:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:jkYwsS3L:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">WARRC</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:Oy6Lstlr:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:CGW0qEYI:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">WELCKP</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:SQHUSoqh:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:Bni298Fi:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">ASSLT</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:C2kCEqgJ:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:GjskIqa0:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">DEVICE</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:KPUeSXlb:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:MzxVEjwF:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">ROB</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:YlDKCZZ4:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:GBudR6R4:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">SHOOT</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:naog2N3P:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:MuOu0HA6:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">STAB</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:MQNMDSrP:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:qteECPvG:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">BURG</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:oZcJKWmX:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:OEQ0fxHb:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">FRAUD</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:YXLay2tJ:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:XcIoaJqr:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">FRAUDP</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:W2yKcLsl:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:smWzpf1y:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">THEFT</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:j54cwC4N:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:p11SiR1N:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">IDENT</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:oZX4hKYK:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:l4Kwk6rh:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">THEFTC</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:hpYSZ08U:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:CtGo4rtE:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">THEFTP</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:wQA9cpOG:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:LfKmG3Dq:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">VAND</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:LnFqwAa1:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:A3I1rym3:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">VANDP</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:cHeI2Zvv:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:j1lMP02v:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">VEHST</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:Ngz3qxbT:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:aYlp79ko:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">ACCHR</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:Hpgg9ZTl:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:dOavM0to:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">ACCHRP</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:QXKcQzm0:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:rl5JDor8:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">ACCINJ</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:BMnCeB5v:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:QugoNmLo:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">HOSTGE</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:ubD0iIh2:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:oBg7iM2w:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">ACCNON</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:pU8raJjo:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:lWWJHx6p:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">ACCUNK</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:xpEFhmHA:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:SkZ0kDuD:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">DUII</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:FA7lFAvw:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:SuO54Jn2:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">HAZARD</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:gJRWRrff:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:IUgnQ0xN:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">TRASTP</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:cgMuN5lz:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:xfEi0Plx:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">WRONG</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:J7a98a1Z:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:IR37mQi1:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">TPURS</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:jg392GPN:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:DjuWYjl2:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">RSTLN</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:MFySlH8l:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:S41jzmOw:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">VEHREC</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:WKudRcde:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:Zo7uL3eG:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">VEHSTP</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:WEJdydIj:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:lPQ4hmed:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">PROWLP</ddi3:Value>
+        </ddi2:Code>
+        <ddi2:Code>
+          <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:MpLXoeuE:1.0.0</ddi3:URN>
+          <ddi3:CategoryReference xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:UjMiEU5w:1.0.0</ddi3:URN>
+            <ddi3:TypeOfObject>Category</ddi3:TypeOfObject>
+          </ddi3:CategoryReference>
+          <ddi3:Value xmlns:ddi3="ddi:reusable:3_2">BURGP</ddi3:Value>
+        </ddi2:Code>
+      </ddi2:CodeList>
+    </ddi2:CodeListScheme>
+    <ddi2:VariableScheme xml:lang="en" isMaintainable="true" scopeOfUniqueness="Agency" xmlns:ddi2="ddi:logicalproduct:3_2">
+      <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:paxHRJs6hcKxThhw:1.0.0</ddi3:URN>
+      <ddi2:VariableSchemeName>
+        <ddi3:String xmlns:ddi3="ddi:reusable:3_2">NIJ_CFS_PORTLAND</ddi3:String>
+      </ddi2:VariableSchemeName>
+      <ddi2:Variable>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:ZRob3QOm:1.0.0</ddi3:URN>
+        <ddi2:VariableName>
+          <ddi3:String xmlns:ddi3="ddi:reusable:3_2">category</ddi3:String>
+        </ddi2:VariableName>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">Category</ddi3:Content>
+        </ddi3:Label>
+        <ddi2:VariableRepresentation>
+          <ddi3:CodeRepresentation xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:RecommendedDataType>Text</ddi3:RecommendedDataType>
+            <ddi3:CodeListReference>
+              <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:rh3mWTWMuIQkt3vC:1.0.0</ddi3:URN>
+              <ddi3:TypeOfObject>CodeList</ddi3:TypeOfObject>
+            </ddi3:CodeListReference>
+          </ddi3:CodeRepresentation>
+        </ddi2:VariableRepresentation>
+      </ddi2:Variable>
+      <ddi2:Variable>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:jwd3ZPzN:1.0.0</ddi3:URN>
+        <ddi2:VariableName>
+          <ddi3:String xmlns:ddi3="ddi:reusable:3_2">call_group</ddi3:String>
+        </ddi2:VariableName>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">Call group</ddi3:Content>
+        </ddi3:Label>
+        <ddi2:VariableRepresentation>
+          <ddi3:CodeRepresentation xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:RecommendedDataType>Text</ddi3:RecommendedDataType>
+            <ddi3:CodeListReference>
+              <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:jdNSSrpwCEhB1kcr:1.0.0</ddi3:URN>
+              <ddi3:TypeOfObject>CodeList</ddi3:TypeOfObject>
+            </ddi3:CodeListReference>
+          </ddi3:CodeRepresentation>
+        </ddi2:VariableRepresentation>
+      </ddi2:Variable>
+      <ddi2:Variable>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:n6uq7NnZ:1.0.0</ddi3:URN>
+        <ddi2:VariableName>
+          <ddi3:String xmlns:ddi3="ddi:reusable:3_2">final_case_type</ddi3:String>
+        </ddi2:VariableName>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">Final case type</ddi3:Content>
+        </ddi3:Label>
+        <ddi2:VariableRepresentation>
+          <ddi3:CodeRepresentation xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:RecommendedDataType>Text</ddi3:RecommendedDataType>
+            <ddi3:CodeListReference>
+              <ddi3:URN typeOfIdentifier="Canonical">urn:ddi:us.mtna:Xw4UMoYk7DDAnIl2:1.0.0</ddi3:URN>
+              <ddi3:TypeOfObject>CodeList</ddi3:TypeOfObject>
+            </ddi3:CodeListReference>
+          </ddi3:CodeRepresentation>
+        </ddi2:VariableRepresentation>
+      </ddi2:Variable>
+      <ddi2:Variable>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:PNJ0dtBC:1.0.0</ddi3:URN>
+        <ddi2:VariableName>
+          <ddi3:String xmlns:ddi3="ddi:reusable:3_2">case_desc</ddi3:String>
+        </ddi2:VariableName>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">Case description</ddi3:Content>
+        </ddi3:Label>
+        <ddi2:VariableRepresentation>
+          <ddi3:TextRepresentation xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:RecommendedDataType/>
+            <ddi3:GenericOutputFormat>Text</ddi3:GenericOutputFormat>
+          </ddi3:TextRepresentation>
+        </ddi2:VariableRepresentation>
+      </ddi2:Variable>
+      <ddi2:Variable>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:vexiGoFv:1.0.0</ddi3:URN>
+        <ddi2:VariableName>
+          <ddi3:String xmlns:ddi3="ddi:reusable:3_2">occ_date</ddi3:String>
+        </ddi2:VariableName>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">Occurrence date</ddi3:Content>
+        </ddi3:Label>
+        <ddi2:VariableRepresentation>
+          <ddi3:TextRepresentation xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:RecommendedDataType/>
+            <ddi3:GenericOutputFormat>Text</ddi3:GenericOutputFormat>
+          </ddi3:TextRepresentation>
+        </ddi2:VariableRepresentation>
+      </ddi2:Variable>
+      <ddi2:Variable>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:iEC7srVi:1.0.0</ddi3:URN>
+        <ddi2:VariableName>
+          <ddi3:String xmlns:ddi3="ddi:reusable:3_2">x_coordinate</ddi3:String>
+        </ddi2:VariableName>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">X coordinate</ddi3:Content>
+        </ddi3:Label>
+        <ddi2:VariableRepresentation>
+          <ddi3:NumericRepresentation xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:RecommendedDataType/>
+            <ddi3:GenericOutputFormat>Numeric</ddi3:GenericOutputFormat>
+          </ddi3:NumericRepresentation>
+        </ddi2:VariableRepresentation>
+      </ddi2:Variable>
+      <ddi2:Variable>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:CRiJRxbM:1.0.0</ddi3:URN>
+        <ddi2:VariableName>
+          <ddi3:String xmlns:ddi3="ddi:reusable:3_2">y_coordinate</ddi3:String>
+        </ddi2:VariableName>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">Y coordinate</ddi3:Content>
+        </ddi3:Label>
+        <ddi2:VariableRepresentation>
+          <ddi3:NumericRepresentation xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:RecommendedDataType/>
+            <ddi3:GenericOutputFormat>Numeric</ddi3:GenericOutputFormat>
+          </ddi3:NumericRepresentation>
+        </ddi2:VariableRepresentation>
+      </ddi2:Variable>
+      <ddi2:Variable>
+        <ddi3:URN typeOfIdentifier="Canonical" xmlns:ddi3="ddi:reusable:3_2">urn:ddi:us.mtna:in4owaIO:1.0.0</ddi3:URN>
+        <ddi2:VariableName>
+          <ddi3:String xmlns:ddi3="ddi:reusable:3_2">census_tract</ddi3:String>
+        </ddi2:VariableName>
+        <ddi3:Label xmlns:ddi3="ddi:reusable:3_2">
+          <ddi3:Content xml:lang="en">Census tract</ddi3:Content>
+        </ddi3:Label>
+        <ddi2:VariableRepresentation>
+          <ddi3:TextRepresentation xmlns:ddi3="ddi:reusable:3_2">
+            <ddi3:RecommendedDataType/>
+            <ddi3:GenericOutputFormat>Text</ddi3:GenericOutputFormat>
+          </ddi3:TextRepresentation>
+        </ddi2:VariableRepresentation>
+      </ddi2:Variable>
+    </ddi2:VariableScheme>
+  </ddi1:ResourcePackage>
+</ddi:DDIInstance>

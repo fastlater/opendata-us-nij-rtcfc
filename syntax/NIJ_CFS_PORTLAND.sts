@@ -1,0 +1,147 @@
+//+----------------------------------------------------------+
+//|                                                          |
+//| This script was produced by the OpenDataForge            |
+//| StatTransfer Script Generator.                           |
+//|                                                          |
+//| To ensure the successful import into StatTransfer be     |
+//| sure to double check the following lines.                |
+//|                                                          |
+//| 1) "FILE" - This should point the data file that you     |
+//|    will be importing into StatTransfer, ensure that      |
+//|    the path points to the correct file. If you move the  |
+//|    data to another folder, ensure that you change the    |
+//|    path to reflect the new location of the data file.    |
+//|                                                          |
+//|                                                          |
+//| For more information on our products or services visit   |
+//| http://www.mtna.us.                                      |
+//|                                                          |
+//+----------------------------------------------------------+
+
+ENCODING UTF-8
+
+FILE NIJ_CFS_PORTLAND.fixed.dat
+
+VARIABLES
+	category	1-19	(A)	{Category}	\category
+	call_group	20-37	(A)	{Call group}	\call_group
+	final_case_type	38-43	(A)	{Final case type}	\final_case_type
+	case_desc	44-88	(A)	{Case description}	
+	occ_date	89-98	(A)	{Occurrence date}	
+	x_coordinate	99-105	{X coordinate}	
+	y_coordinate	106-111	{Y coordinate}	
+	census_tract	112-117	(A)	{Census tract}	
+
+VALUE LABELS
+	\null
+		'STC' "STREET CRIMES"
+		'OTH' "OTHER"
+		'MVT' "MOTOR VEHICLE THEFT"
+		'BUR' "BURGLARY"
+
+	\null
+		'DISORDER' "DISORDER"
+		'PERSON CRIME' "PERSON CRIME"
+		'SUSPICIOUS' "SUSPICIOUS"
+		'NON CRIMINAL/ADMIN' "NON CRIMINAL/ADMIN"
+		'PROPERTY CRIME' "PROPERTY CRIME"
+		'TRAFFIC' "TRAFFIC"
+
+	\null
+		'DISTP' "DISTP"
+		'DISTW' "DISTW"
+		'VICE' "VICE"
+		'ASSLTP' "ASSLTP"
+		'ASSLTW' "ASSLTW"
+		'ROBP' "ROBP"
+		'ROBW' "ROBW"
+		'SHOOTW' "SHOOTW"
+		'SHOTS' "SHOTS"
+		'STABW' "STABW"
+		'THRETP' "THRETP"
+		'THRETW' "THRETW"
+		'GANG' "GANG"
+		'AREACK' "AREACK"
+		'PREMCK' "PREMCK"
+		'SUSP' "SUSP"
+		'SUSPP' "SUSPP"
+		'SUSPW' "SUSPW"
+		'ANIML' "ANIML"
+		'ANIMLP' "ANIMLP"
+		'BOMBTH' "BOMBTH"
+		'DIST' "DIST"
+		'ESCAPE' "ESCAPE"
+		'FWB' "FWB"
+		'FWH' "FWH"
+		'FWI' "FWI"
+		'CHEM' "CHEM"
+		'FWN' "FWN"
+		'NOISE' "NOISE"
+		'PARK' "PARK"
+		'PARTY' "PARTY"
+		'POLINV' "POLINV"
+		'SCHL' "SCHL"
+		'SCHLP' "SCHLP"
+		'SCHLW' "SCHLW"
+		'THRET' "THRET"
+		'TMET' "TMET"
+		'TMETP' "TMETP"
+		'TMETW' "TMETW"
+		'TRASH' "TRASH"
+		'TRASHP' "TRASHP"
+		'UNWNT' "UNWNT"
+		'FPURS' "FPURS"
+		'UNWNTW' "UNWNTW"
+		'W26' "W26"
+		77 "77"
+		'ASSIST' "ASSIST"
+		'CIVIL' "CIVIL"
+		'EVICT' "EVICT"
+		'FLAG' "FLAG"
+		'FOLLOW' "FOLLOW"
+		'MSG' "MSG"
+		'PROP' "PROP"
+		'GREAT' "GREAT"
+		'RED' "RED"
+		'RIVPOL' "RIVPOL"
+		'SCHLET' "SCHLET"
+		'SERVE' "SERVE"
+		'STNDBY' "STNDBY"
+		'SUBSTP' "SUBSTP"
+		'TRANS' "TRANS"
+		'WARR' "WARR"
+		'WELCK' "WELCK"
+		'WARRC' "WARRC"
+		'WELCKP' "WELCKP"
+		'ASSLT' "ASSLT"
+		'DEVICE' "DEVICE"
+		'ROB' "ROB"
+		'SHOOT' "SHOOT"
+		'STAB' "STAB"
+		'BURG' "BURG"
+		'FRAUD' "FRAUD"
+		'FRAUDP' "FRAUDP"
+		'THEFT' "THEFT"
+		'IDENT' "IDENT"
+		'THEFTC' "THEFTC"
+		'THEFTP' "THEFTP"
+		'VAND' "VAND"
+		'VANDP' "VANDP"
+		'VEHST' "VEHST"
+		'ACCHR' "ACCHR"
+		'ACCHRP' "ACCHRP"
+		'ACCINJ' "ACCINJ"
+		'HOSTGE' "HOSTGE"
+		'ACCNON' "ACCNON"
+		'ACCUNK' "ACCUNK"
+		'DUII' "DUII"
+		'HAZARD' "HAZARD"
+		'TRASTP' "TRASTP"
+		'WRONG' "WRONG"
+		'TPURS' "TPURS"
+		'RSTLN' "RSTLN"
+		'VEHREC' "VEHREC"
+		'VEHSTP' "VEHSTP"
+		'PROWLP' "PROWLP"
+		'BURGP' "BURGP"
+

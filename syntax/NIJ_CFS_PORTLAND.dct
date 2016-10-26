@@ -1,0 +1,10 @@
+infile dictionary { 
+	_column(1)	str19			category		%19s		"Category"
+	_column(20)	str18			call_group		%18s		"Call group"
+	_column(38)	str6			final_case_type		%6s		"Final case type"
+	_column(44)	str45			case_desc		%45s		"Case description"
+	_column(89)	str10			occ_date		%10s		"Occurrence date"
+	_column(99)	float			x_coordinate		%7e		"X coordinate"
+	_column(106)	float			y_coordinate		%6e		"Y coordinate"
+	_column(112)	str6			census_tract		%6s		"Census tract"
+}

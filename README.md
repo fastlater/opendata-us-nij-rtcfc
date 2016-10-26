@@ -5,6 +5,8 @@
 
 This repository provides access to an **open data** repackaged and cloud queryable versions of the calls-for-service (CFS) datasets and related resources for the [National Institute of Justice Real-Time Crime Forecasting Challenge](http://nij.gov/funding/Pages/fy16-crime-forecasting-challenge.aspx). The initiative, offering up to $1.2 million dollars in price, seeks to harness the advances in ​data science to address the challenges of crime and justice. It is open to open to individuals and businesses and runs from September 2016 to February 2017.
 
+*The Portal CFS dataset currenlty covers the March 2012 to September 2016 period.*
+
 <a name="toc"></a>
 ## TOC
 * [Why are we doing this?](#rationale)
@@ -36,12 +38,11 @@ See [Contribute & Support](#contribute) below for ways to support these efforts 
 <a name="contents"></a>
 ## What's made available here?
 
-* A cumulative version of the **calls-for-service (CFS) dataset** in **comma separated (CSV)** and **fixed ASCII** text formats in the [```/data```](#data)directory. This has been extracted from the dBase files in the distributed ESRI package and combines the annual/monthly data files published by NIJ into a single dataset.
-* **Programs** to read the text data into [**R**](http://www.r-project.com),  [**SAS**](http://www.sas.com), [**SPSS**](http://www.spss.com), [**Stata**](http://www.stata.com), [**Stat/Transfer**)[www.stattransfer.com/] are in the [```/syntax```](syntax) directory. These include when relevant syntax for value labels.
+* A cumulative version of the **calls-for-service (CFS) dataset** in **comma separated (CSV)** and **fixed ASCII** text formats in the [```/data```](#data)directory. This has been extracted from the dBase files in the distributed ESRI package and combines the annual/monthly data files published by NIJ into a single dataset. File have been ZIP compressed to preserve space.
+* **Programs** to read the text data into [**R**](http://www.r-project.com),  [**SAS**](http://www.sas.com), [**SPSS**](http://www.spss.com), [**Stata**](http://www.stata.com), [**Stat/Transfer**)[http://www.stattransfer.com] are in the [```/syntax```](syntax) directory. These include when relevant code for value labels.
 * **SQL scripts** to create and load the data in [**MS-SQL**](https://www.microsoft.com/en-us/cloud-platform/sql-server), [**MySql**](http://www.mysql.com), [**MonetDB**](http://www.monetdb.org), [**Oracle**](http://www.oracle.com), [**Vertica**](www.vertica.com) databases are in the [```/sql```](sql)directory. This includes code to generate the database schema and dimension/lookup tables. These scripts rely on the SQL friendly version of the text data (.sql.csv file).
-* **Cloud** accessible and dynamically **queryable** instances of the data in [**Google BiqQuery**](https://cloud.google.com/bigquery/) ([see below](#cloud))
-* **Documentation**, mostly automatically generated from the data and metadata in the [```/docs```](docs) directory. This includes PDF data dictionaries.
-* **Metadata** in [**DDI**](http://www.ddialliance.org) and [**Triple-S**](http://www.triple-s.org) XML formats in the [```/metadata```](metadata) directory . This also includes **descriptive statistics** (summary and frequencies) which are available in CSV files and embedded in DDI.
+* **Cloud** accessible and dynamically **queryable** instances of the data in [**Google BiqQuery**](https://cloud.google.com/bigquery/) or using our experimental [**Rich Data Service API**](http://www.richdataservice.com) ([see below](#cloud))
+* **Metadata** in [**DDI**](http://www.ddialliance.org) and [**Triple-S**](http://www.triple-s.org) XML formats in the [```/metadata```](metadata) directory . This includes **descriptive statistics** (summary and frequencies) in CSV files format and embedded in DDI, along with a generated PDF data dictionnary.
 
 *Interested or need other outputs? [Contact us](http://www.mtna.us/contactus?subject=nij-challenge) with your needs and suggestion.* 
 
@@ -57,6 +58,12 @@ The data is published and accessible in the following cloud based data sources o
 
 * The cumulative version of the CFS is publicly available at [https://bigquery.cloud.google.com/dataset/mtna-opendata:nij_rtcfc](https://bigquery.cloud.google.com/dataset/mtna-opendata:nij_rtcfc)
 
+<a name="rds"></a>
+### MTNA Rich Data Services (experimental)
+We will in 2017 launch [Rich Data Service (RDS)](http://www.richdataservices.com), an innovative solution providing concurrent access to a data and metadata API and offering highly flexible and powerful querying, retrieval, knowledge capture, and open data packaging capabilities. This enables for example rapid access from R or Python, integration in web portals or application, visualizations, or analyzing the data without having to locally host the database.
+
+Access to RDS is available on a experimental/beta release basis to individuals or organizations interested in previewing the technology and take advantage of its features. Contact us if you would like to access the CFS or other available datasets through such API.
+
 <a name="resources"></a>
 ## Other Resources
 The following resources can be consulted to complement the information available here:
@@ -70,15 +77,13 @@ The following resources can be consulted to complement the information available
 The Calls-for-service dataset and map is made available on the [National Institute of Justice Real-Time Crime Forecasting Challenge](http://nij.gov/funding/Pages/fy16-crime-forecasting-challenge.aspx). CFS records are being provided by the Portland Police Bureau (PPB) for the period of March 1, 2012 through February 28, 2017.
 
 ### Coverage Period
-The initial data release covered the March 2012 to July 2016 period. This project will be updated as new data is made available by NIJ for subsequent months. 
-
-*The current version is up to August 2016*.
+The current data release covers the March 2012 to September 2016 period. This project will be updated as new data is made available by NIJ for subsequent months. 
 
 ### Data Dictionary
 The CFS record definition is based on the structure and content as described on the NIJ of web site. Note that we have preserved the original field names and casing to ensure compatibility with existing code. 
 
 <a name="odps"></a>
-## Open Data Packaging Process
+## Our Open Data Packaging Process
 We have packaged this data product in accordance to our open data vision and principles, which aims at maximizing usability by (1) liberating data from proprietary formats, (2) capturing knowledge around the data in compliance with international best practices and metadata standards, and (3) facilitating immediate reuse in popular data management environments. See our [Open Data Packaging Services](http://www.mtna.us/odps) description for further information.
 
 The following steps are taken to repackage and publish the data:
@@ -102,7 +107,7 @@ Putting this data product together and maintaining the repository takes time and
 
 <a name="license"></a>
 ## Licenses
-The data and metadata published here are licensed under the [Creative Commons CC0 1.0 Universal License](http://creativecommons.org/publicdomain/zero/1.0/). Users are advised to further check licensing and usage conditions for of underlying materials with the respective custodians/ publishers. 
+The data and metadata published here are licensed under the [Creative Commons CC0 1.0 Universal License](http://creativecommons.org/publicdomain/zero/1.0/). Users are advised to further check licensing and usage conditions of underlying materials with the respective custodians/ publishers. 
 
 Programs, syntax, scripts and other software components are made available under the [BSD2 license](https://opensource.org/licenses/BSD-2-Clause).
 

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sss version="2.0" xmlns="http://openmetadata.org/schemas/triple-s20">
+  <survey>
+    <record format="fixed" ident="A">
+      <variable type="character" ident="1" format="literal">
+        <name>category</name>
+        <label>Category</label>
+        <position start="1" finish="19"/>
+        <values>
+          <value code="STC">STREET CRIMES</value>
+          <value code="OTH">OTHER</value>
+          <value code="MVT">MOTOR VEHICLE THEFT</value>
+          <value code="BUR">BURGLARY</value>
+        </values>
+      </variable>
+      <variable type="character" ident="2" format="literal">
+        <name>call_group</name>
+        <label>Call group</label>
+        <position start="20" finish="37"/>
+        <values>
+          <value code="DISORDER">DISORDER</value>
+          <value code="PERSON CRIME">PERSON CRIME</value>
+          <value code="SUSPICIOUS">SUSPICIOUS</value>
+          <value code="NON CRIMINAL/ADMIN">NON CRIMINAL/ADMIN</value>
+          <value code="PROPERTY CRIME">PROPERTY CRIME</value>
+          <value code="TRAFFIC">TRAFFIC</value>
+        </values>
+      </variable>
+      <variable type="character" ident="3" format="literal">
+        <name>final_case_type</name>
+        <label>Final case type</label>
+        <position start="38" finish="43"/>
+        <values>
+          <value code="DISTP">DISTP</value>
+          <value code="DISTW">DISTW</value>
+          <value code="VICE">VICE</value>
+          <value code="ASSLTP">ASSLTP</value>
+          <value code="ASSLTW">ASSLTW</value>
+          <value code="ROBP">ROBP</value>
+          <value code="ROBW">ROBW</value>
+          <value code="SHOOTW">SHOOTW</value>
+          <value code="SHOTS">SHOTS</value>
+          <value code="STABW">STABW</value>
+          <value code="THRETP">THRETP</value>
+          <value code="THRETW">THRETW</value>
+          <value code="GANG">GANG</value>
+          <value code="AREACK">AREACK</value>
+          <value code="PREMCK">PREMCK</value>
+          <value code="SUSP">SUSP</value>
+          <value code="SUSPP">SUSPP</value>
+          <value code="SUSPW">SUSPW</value>
+          <value code="ANIML">ANIML</value>
+          <value code="ANIMLP">ANIMLP</value>
+          <value code="BOMBTH">BOMBTH</value>
+          <value code="DIST">DIST</value>
+          <value code="ESCAPE">ESCAPE</value>
+          <value code="FWB">FWB</value>
+          <value code="FWH">FWH</value>
+          <value code="FWI">FWI</value>
+          <value code="CHEM">CHEM</value>
+          <value code="FWN">FWN</value>
+          <value code="NOISE">NOISE</value>
+          <value code="PARK">PARK</value>
+          <value code="PARTY">PARTY</value>
+          <value code="POLINV">POLINV</value>
+          <value code="SCHL">SCHL</value>
+          <value code="SCHLP">SCHLP</value>
+          <value code="SCHLW">SCHLW</value>
+          <value code="THRET">THRET</value>
+          <value code="TMET">TMET</value>
+          <value code="TMETP">TMETP</value>
+          <value code="TMETW">TMETW</value>
+          <value code="TRASH">TRASH</value>
+          <value code="TRASHP">TRASHP</value>
+          <value code="UNWNT">UNWNT</value>
+          <value code="FPURS">FPURS</value>
+          <value code="UNWNTW">UNWNTW</value>
+          <value code="W26">W26</value>
+          <value code="77">77</value>
+          <value code="ASSIST">ASSIST</value>
+          <value code="CIVIL">CIVIL</value>
+          <value code="EVICT">EVICT</value>
+          <value code="FLAG">FLAG</value>
+          <value code="FOLLOW">FOLLOW</value>
+          <value code="MSG">MSG</value>
+          <value code="PROP">PROP</value>
+          <value code="GREAT">GREAT</value>
+          <value code="RED">RED</value>
+          <value code="RIVPOL">RIVPOL</value>
+          <value code="SCHLET">SCHLET</value>
+          <value code="SERVE">SERVE</value>
+          <value code="STNDBY">STNDBY</value>
+          <value code="SUBSTP">SUBSTP</value>
+          <value code="TRANS">TRANS</value>
+          <value code="WARR">WARR</value>
+          <value code="WELCK">WELCK</value>
+          <value code="WARRC">WARRC</value>
+          <value code="WELCKP">WELCKP</value>
+          <value code="ASSLT">ASSLT</value>
+          <value code="DEVICE">DEVICE</value>
+          <value code="ROB">ROB</value>
+          <value code="SHOOT">SHOOT</value>
+          <value code="STAB">STAB</value>
+          <value code="BURG">BURG</value>
+          <value code="FRAUD">FRAUD</value>
+          <value code="FRAUDP">FRAUDP</value>
+          <value code="THEFT">THEFT</value>
+          <value code="IDENT">IDENT</value>
+          <value code="THEFTC">THEFTC</value>
+          <value code="THEFTP">THEFTP</value>
+          <value code="VAND">VAND</value>
+          <value code="VANDP">VANDP</value>
+          <value code="VEHST">VEHST</value>
+          <value code="ACCHR">ACCHR</value>
+          <value code="ACCHRP">ACCHRP</value>
+          <value code="ACCINJ">ACCINJ</value>
+          <value code="HOSTGE">HOSTGE</value>
+          <value code="ACCNON">ACCNON</value>
+          <value code="ACCUNK">ACCUNK</value>
+          <value code="DUII">DUII</value>
+          <value code="HAZARD">HAZARD</value>
+          <value code="TRASTP">TRASTP</value>
+          <value code="WRONG">WRONG</value>
+          <value code="TPURS">TPURS</value>
+          <value code="RSTLN">RSTLN</value>
+          <value code="VEHREC">VEHREC</value>
+          <value code="VEHSTP">VEHSTP</value>
+          <value code="PROWLP">PROWLP</value>
+          <value code="BURGP">BURGP</value>
+        </values>
+      </variable>
+      <variable type="character" ident="4">
+        <name>case_desc</name>
+        <label>Case description</label>
+        <position start="44" finish="88"/>
+        <size>45</size>
+      </variable>
+      <variable type="character" ident="5">
+        <name>occ_date</name>
+        <label>Occurrence date</label>
+        <position start="89" finish="98"/>
+        <size>10</size>
+      </variable>
+      <variable type="quantity" ident="6">
+        <name>x_coordinate</name>
+        <label>X coordinate</label>
+        <position start="99" finish="105"/>
+        <values>
+          <range from="0000000" to="9999999"/>
+        </values>
+      </variable>
+      <variable type="quantity" ident="7">
+        <name>y_coordinate</name>
+        <label>Y coordinate</label>
+        <position start="106" finish="111"/>
+        <values>
+          <range from="000000" to="999999"/>
+        </values>
+      </variable>
+      <variable type="character" ident="8">
+        <name>census_tract</name>
+        <label>Census tract</label>
+        <position start="112" finish="117"/>
+        <size>6</size>
+      </variable>
+    </record>
+  </survey>
+</sss>
