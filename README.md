@@ -1,6 +1,6 @@
 # NIJ Real-Time Crime Forecasting Challenge Open Data
 <div style="float:right;margin-left:10px">
-<div><a href="http://nij.gov/funding/Pages/fy16-crime-forecasting-challenge.aspx" target="_blank"><img src="media/forecasting-challenge-for-page.png"</img></a></div>
+<div><a href="http://nij.gov/funding/Pages/fy16-crime-forecasting-challenge.aspx" target="_blank"><img style="float:right;margin-left:10px" src="media/forecasting-challenge-for-page.png"</img></a></div>
 </div>
 
 This repository provides access to an **open data** repackaged and cloud queryable versions of the calls-for-service (CFS) datasets and related resources for the [National Institute of Justice Real-Time Crime Forecasting Challenge](http://nij.gov/funding/Pages/fy16-crime-forecasting-challenge.aspx). The initiative, offering up to $1.2 million dollars in price, seeks to harness the advances in ​data science to address the challenges of crime and justice. It is open to open to individuals and businesses and runs from September 2016 to February 2017.
