@@ -69,7 +69,7 @@ The CFS record definition is based on the structure and content as described on 
 <a name="rationale"></a>
 ## Why are we doing this?
 <div style="float:right;margin-left:10px" >
-<div><a href="http://www.mtna.us" target="_blank"><img src="media/mtna_logo_200x82.png"</img></a></div>
+<div><a href="http://www.mtna.us" target="_blank"><img align="right" src="media/mtna_logo_200x82.png"</img></a></div>
 </div>
 We are not participating in the Challenge. Our company, [Metadata Technology North America](http://wwwm.mtna.us), provides products, services, expertise, and cloud infrastructure aiming at improving accessibility, quality, and usefulness of data by leveraging modern technologies, standards, and good practices. This is motivated by our vision that better data can create a better world. 
 
