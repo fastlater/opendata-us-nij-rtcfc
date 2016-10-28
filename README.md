@@ -22,7 +22,7 @@ This repository provides access to an **open data** repackaged and cloud queryab
 <a name="contents"></a>
 ## What's made available here?
 
-* A cumulative version of the **calls-for-service (CFS) dataset** in **comma separated (CSV)** and **fixed ASCII** text formats in the [```/data```](#data)directory. This has been extracted from the dBase files in the distributed ESRI package and combines the annual/monthly data files published by NIJ into a single dataset. File have been ZIP compressed to preserve space.
+* A cumulative version of the **calls-for-service (CFS) dataset** in **comma separated (CSV)** and **fixed ASCII** text formats in the [```/data```](#data)directory. This has been extracted from the dBase files available in the packages distributed by NIJ and combines the annual/monthly data files into a single dataset. Files have been ZIP compressed to preserve space.
 * **Programs** to read the text data into [**R**](http://www.r-project.com),  [**SAS**](http://www.sas.com), [**SPSS**](http://www.spss.com), [**Stata**](http://www.stata.com), [**Stat/Transfer**)[http://www.stattransfer.com] are in the [```/syntax```](syntax) directory. These include when relevant code for value labels.
 * **SQL scripts** to create and load the data in [**MS-SQL**](https://www.microsoft.com/en-us/cloud-platform/sql-server), [**MySql**](http://www.mysql.com), [**MonetDB**](http://www.monetdb.org), [**Oracle**](http://www.oracle.com), [**Vertica**](www.vertica.com) databases are in the [```/sql```](sql)directory. This includes code to generate the database schema and dimension/lookup tables. These scripts rely on the SQL friendly version of the text data (.sql.csv file).
 * **Cloud** accessible and dynamically **queryable** instances of the data in [**Google BiqQuery**](https://cloud.google.com/bigquery/) or using our experimental [**Rich Data Service API**](http://www.richdataservice.com) ([see below](#cloud))
@@ -44,17 +44,20 @@ The data is published and accessible in the following cloud based data sources o
 
 <a name="rds"></a>
 ### MTNA Rich Data Services (experimental)
-We will in 2017 launch [Rich Data Service (RDS)](http://www.richdataservices.com), an innovative solution providing concurrent access to a data and metadata API and offering highly flexible and powerful querying, retrieval, knowledge capture, and open data packaging capabilities. This enables for example rapid access from R or Python, integration in web portals or application, visualizations, or analyzing the data without having to locally host the database.
+We will in 2017 launch [Rich Data Service (RDS)](http://www.richdataservices.com), an innovative platform providing concurrent access to a data and metadata API and offering highly flexible and powerful querying, data retrieval, knowledge capture, and open data packaging capabilities. This enables for example rapid access from R or Python, integration in web portals or application, visualizations, or analyzing the data without having to locally host the database. 
 
-Access to RDS is available on a experimental/beta release basis to individuals or organizations interested in previewing the technology and take advantage of its features. Contact us if you would like to access the CFS or other available datasets through such API.
+Access to RDS is available on a experimental/beta release basis to individuals or organizations interested in previewing the technology and take advantage of its features. [Contact us](http://mtna.us/contact?subject=rds) if you would like to access the CFS or other available datasets through such API.
+
+Initial product documentation can be consulted at [https://goo.gl/xUza9R](https://goo.gl/xUza9R), and our RDS-R library is on GitHub at [https://github.com/mtna/rds-r](https://github.com/mtna/rds-r).
 
 <a name="resources"></a>
 ## Other Resources
 The following resources can be consulted to complement the information available here:
 
-* [City of Portland Police Bureau](https://www.portlandoregon.gov/police/29793?): This web sites provides access to statistics and information
+* [City of Portland Police Bureau](https://www.portlandoregon.gov/police/29793?): This web sites provides access to local statistics and information
 * [CrimeReport Portland](https://preview.crimereports.com/agency/portland-police-bureau-or): An interactive map to explore incidents. Use the Filter option to specify time period and other selection criteria. Can be used for other agencies.
 * [Socrata Portland Service Bureau Incidents](http://moto.data.socrata.com/d/mmpn-q6w2): Explore the Portland Police Bureau Incident Dataset with Socrata. Can be used to browse, subset, mine, visualize, and download data.
+* The [Challenge unmoderated discussion forum](https://www.challenge.gov/challenge/real-time-crime-forecasting-challenge/)
 
 <a name="cfs"></a>
 ## The Calls-for-service dataset (CFS)
@@ -100,7 +103,7 @@ Putting this data product together and maintaining the repository takes time and
 * Let us know is you find any discrepancy or have suggestions towards enhancing the content or quality
 * Submit your own contributions or fork the project and add to the ```/contribs``` directory
 * Donations are always appreciated and can be made through [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GKAYVJSBLN92E)
-* Contact us if you would like to formally fund this work and optionally be credited as a sponsor
+* [Contact us](http://www.mtna.us/contactus?subject=nij-challenge) if you would like to formally fund this work and optionally be credited as a sponsor
 * Visit us at [http://www.mtna.us](http://www.mtna.us) and consider using our products, services, expertise, or cloud solutions
 
 *And if you win the Challenge, accept our congratulations and keep above suggestions in mind...*
