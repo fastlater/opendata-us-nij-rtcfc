@@ -7,7 +7,7 @@ This repository provides access to an [open data](#odps) packaged and [cloud que
 
 Note that we are not participating in the Challenge. Our objective is to support the initiative and promote our vision of better data for a better world.
 
-*The current version of the Portkand CFS dataset covers the March 2012 to September 2016 period.*
+*This cumulative version of the Portland CFS covers the March 2012 to September 2016 period. This is an unofficial release of the dataset based on the original published on the Challenge web site.*
 
 <a name="toc"></a>
 ## TOC
