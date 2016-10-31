@@ -38,9 +38,9 @@ The data is published and accessible in the following cloud based data sources o
 
 <a name="bq"></a>
 ### Google BigQuery
-[BigQuery](https://cloud.google.com/bigquery/) is a RESTful web service that enables interactive analysis of massively large dataset. See [product documentation](https://cloud.google.com/bigquery/docs/).
+[BigQuery](https://cloud.google.com/bigquery/) is a RESTful web service that enables interactive analysis of massively large dataset. You need a Google account to use BigQuery API, th eplatform being available for free or at costs based on your level of usage .fee See [product documentation](https://cloud.google.com/bigquery/docs/). 
 
-* The cumulative version of the CFS is publicly available at [https://bigquery.cloud.google.com/dataset/mtna-opendata:nij_rtcfc](https://bigquery.cloud.google.com/dataset/mtna-opendata:nij_rtcfc)
+* We have loaded our current version ofthe cumulative CFS at [https://bigquery.cloud.google.com/dataset/mtna-opendata:nij_rtcfc](https://bigquery.cloud.google.com/dataset/mtna-opendata:nij_rtcfc)
 
 <a name="rds"></a>
 ### MTNA Rich Data Services (experimental)
