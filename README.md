@@ -3,9 +3,11 @@
 <div><a href="http://nij.gov/funding/Pages/fy16-crime-forecasting-challenge.aspx" target="_blank"><img align="right" src="media/forecasting-challenge-for-page.png"</img></a></div>
 </div>
 
-This repository provides access to an **open data** repackaged and cloud queryable versions of the calls-for-service (CFS) datasets and related resources for the [National Institute of Justice Real-Time Crime Forecasting Challenge](http://nij.gov/funding/Pages/fy16-crime-forecasting-challenge.aspx). The initiative, offering up to $1.2 million dollars in price, seeks to harness the advances in ​data science to address the challenges of crime and justice. It is open to open to individuals and businesses and runs from September 2016 to February 2017.
+This repository provides access to an [open data](#odps) packaged and [cloud queryable](#cloud) versions of the calls-for-service (CFS) datasets and related resources underlying the [National Institute of Justice Real-Time Crime Forecasting Challenge](http://nij.gov/funding/Pages/fy16-crime-forecasting-challenge.aspx). The NIJ Challenge, offering up to $1.2 million dollars in price, seeks to harness the advances in ​data science to address the challenges of crime and justice. It is open to open to individuals and businesses and runs from September 2016 to February 2017.
 
-*The Portal CFS dataset currenlty covers the March 2012 to September 2016 period.*
+Note that we are not participating in the Challenge. Out objective is to support the initiative and promote our vision of better data for a better world.
+
+*The current version of the Portkand CFS dataset covers the March 2012 to September 2016 period.*
 
 <a name="toc"></a>
 ## TOC
